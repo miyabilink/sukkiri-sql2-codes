@@ -14,7 +14,7 @@ jobs:
 
       - name: create a Zip file
         run: ls &&
-          zip release.zip chap* &&
+          zip release.zip sql ddl &&
           unzip -t release.zip
       - name: Create release
         id: create_release
