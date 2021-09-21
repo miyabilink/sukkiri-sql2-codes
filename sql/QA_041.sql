@@ -1,0 +1,2 @@
+SELECT LENGTH(口座番号), LENGTH(REPLACE(名義, '　', '')), LENGTH(CAST(残高 AS VARCHAR))
+  FROM 口座
