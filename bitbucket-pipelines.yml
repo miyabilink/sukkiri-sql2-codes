@@ -8,5 +8,5 @@ pipelines:
              - git remote add sync git@github.com:miyabilink/sukkiri-ssql2-codes.git
              - git pull
              - git filter-branch -f --env-filter "GIT_AUTHOR_NAME='Izumi TACHIBANA'; GIT_AUTHOR_EMAIL='tachibana@miyabilink.jp'; GIT_COMMITTER_NAME='Izumi TACHIBANA'; GIT_COMMITTER_EMAIL='tachibana@miyabilink.jp';" --tag-name-filter cat -- --branches --tags
-             - git push -f sync main
+             - git push -f sync HEAD:main
              - git push sync --tags
