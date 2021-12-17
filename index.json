@@ -5298,7 +5298,8 @@
       },
       {
         "id": "QD-2-2-3",
-        "label_header": "QD-2-2-3",
+        "label_header": "",
+        "label": "QD-2-2-3",
         "sourceFiles": [
           "QD_2-2_3.sql"
         ],
@@ -5308,7 +5309,8 @@
       },
       {
         "id": "QD-2-2-4",
-        "label_header": "QD-2-2-4",
+        "label_header": "",
+        "label": "QD-2-2-4",
         "sourceFiles": [
           "QD_2-2_4.sql"
         ],
@@ -5318,7 +5320,8 @@
       },
       {
         "id": "QD-2-2-5",
-        "label_header": "QD-2-2-5",
+        "label_header": "",
+        "label": "QD-2-2-5",
         "sourceFiles": [
           "QD_2-2_5.sql"
         ],
@@ -5328,7 +5331,8 @@
       },
       {
         "id": "QD-2-2-6-1",
-        "label_header": "QD-2-2-6-1",
+        "label_header": "",
+        "label": "QD-2-2-6-1",
         "sourceFiles": [
           "QD_2-2_6_1.sql"
         ],
@@ -5338,7 +5342,8 @@
       },
       {
         "id": "QD-2-2-6-2",
-        "label_header": "QD-2-2-6-2",
+        "label_header": "",
+        "label": "QD-2-2-6-2",
         "sourceFiles": [
           "QD_2-2_6_2.sql"
         ],
@@ -5348,7 +5353,8 @@
       },
       {
         "id": "QD-2-2-6-3",
-        "label_header": "QD-2-2-6-3",
+        "label_header": "",
+        "label": "QD-2-2-6-3",
         "sourceFiles": [
           "QD_2-2_6_3.sql"
         ],
@@ -5358,7 +5364,8 @@
       },
       {
         "id": "QD-2-2-7",
-        "label_header": "QD-2-2-7",
+        "label_header": "",
+        "label": "QD-2-2-7",
         "sourceFiles": [
           "QD_2-2_7.sql"
         ],
@@ -5368,7 +5375,8 @@
       },
       {
         "id": "QD-2-2-8",
-        "label_header": "QD-2-2-8",
+        "label_header": "",
+        "label": "QD-2-2-8",
         "sourceFiles": [
           "QD_2-2_8.sql"
         ],
@@ -5378,7 +5386,8 @@
       },
       {
         "id": "QD-2-2-9",
-        "label_header": "QD-2-2-9",
+        "label_header": "",
+        "label": "QD-2-2-9",
         "sourceFiles": [
           "QD_2-2_9.sql"
         ],
@@ -5388,7 +5397,8 @@
       },
       {
         "id": "QD-2-2_10",
-        "label_header": "QD-2-2_10",
+        "label_header": "",
+        "label": "QD-2-2_10",
         "sourceFiles": [
           "QD_2-2_10.sql"
         ],
