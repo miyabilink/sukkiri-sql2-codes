@@ -1270,6 +1270,7 @@
         "sourceFiles": [
           "List05_01.sql"
         ],
+        "setupFile": "pre_ssql2-List05_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1281,6 +1282,7 @@
         "sourceFiles": [
           "List05_02.sql"
         ],
+        "setupFile": "pre_ssql2-List05_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1292,6 +1294,7 @@
         "sourceFiles": [
           "List05_03.sql"
         ],
+        "setupFile": "pre_ssql2-List05_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1303,6 +1306,7 @@
         "sourceFiles": [
           "List05_04.sql"
         ],
+        "setupFile": "pre_ssql2-List05_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1314,6 +1318,7 @@
         "sourceFiles": [
           "List05_05.sql"
         ],
+        "setupFile": "pre_ssql2-List05_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1325,6 +1330,7 @@
         "sourceFiles": [
           "List05_06.sql"
         ],
+        "setupFile": "pre_ssql2-List05_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1336,6 +1342,7 @@
         "sourceFiles": [
           "List05_07.sql"
         ],
+        "setupFile": "pre_ssql2-List05_07.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1347,6 +1354,7 @@
         "sourceFiles": [
           "List05_08.sql"
         ],
+        "setupFile": "pre_ssql2-List05_08.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1358,6 +1366,7 @@
         "sourceFiles": [
           "List05_09.sql"
         ],
+        "setupFile": "pre_ssql2-List05_09.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1369,6 +1378,7 @@
         "sourceFiles": [
           "List05_10.sql"
         ],
+        "setupFile": "pre_ssql2-List05_10.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1380,6 +1390,7 @@
         "sourceFiles": [
           "List05_11.sql"
         ],
+        "setupFile": "pre_ssql2-List05_11.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1391,6 +1402,7 @@
         "sourceFiles": [
           "List05_12.sql"
         ],
+        "setupFile": "pre_ssql2-List05_12.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1402,6 +1414,7 @@
         "sourceFiles": [
           "List05_13.sql"
         ],
+        "setupFile": "pre_ssql2-List05_13.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1413,6 +1426,7 @@
         "sourceFiles": [
           "List05_14.sql"
         ],
+        "setupFile": "pre_ssql2-List05_14.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1424,6 +1438,7 @@
         "sourceFiles": [
           "List05_15_1.sql"
         ],
+        "setupFile": "pre_ssql2-List05_15_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1435,6 +1450,7 @@
         "sourceFiles": [
           "List05_15_2.sql"
         ],
+        "setupFile": "pre_ssql2-List05_15_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1446,6 +1462,7 @@
         "sourceFiles": [
           "List05_15_3.sql"
         ],
+        "setupFile": "pre_ssql2-List05_15_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1457,6 +1474,7 @@
         "sourceFiles": [
           "List05_15_4.sql"
         ],
+        "setupFile": "pre_ssql2-List05_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1468,6 +1486,7 @@
         "sourceFiles": [
           "List05_15_4.sql"
         ],
+        "setupFile": "pre_ssql2-List05_15_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1479,6 +1498,67 @@
         "sourceFiles": [
           "List05_16.sql"
         ],
+        "setupFile": "pre_ssql2-List05_16.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_01",
+        "label_header": "できるようになったこと",
+        "label": "家計簿で入出金の差額も表示したい",
+        "sourceFiles": [
+          "Can05_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_02",
+        "label_header": "できるようになったこと",
+        "label": "8文字以上のメモは、「…」で末尾を省略したい",
+        "sourceFiles": [
+          "Can05_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_03",
+        "label_header": "できるようになったこと",
+        "label": "「１ドル＝110円」と仮定して、入出金をドル表記(小数点以下切り捨て)したい",
+        "sourceFiles": [
+          "Can05_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_04",
+        "label_header": "できるようになったこと",
+        "label": "誤って未来の日付で登録されている不正な行を探したい",
+        "sourceFiles": [
+          "Can05_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_05",
+        "label_header": "できるようになったこと",
+        "label": "家計簿のメモを一覧表示したい。",
+        "sourceFiles": [
+          "Can05_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1490,6 +1570,7 @@
         "sourceFiles": [
           "Q05_01_1_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_01_1_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1501,6 +1582,7 @@
         "sourceFiles": [
           "Q05_01_1_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_01_1_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1512,6 +1594,7 @@
         "sourceFiles": [
           "Q05_01_1_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_01_1_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1523,6 +1606,7 @@
         "sourceFiles": [
           "Q05_01_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_01_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1534,6 +1618,7 @@
         "sourceFiles": [
           "Q05_02_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1545,6 +1630,7 @@
         "sourceFiles": [
           "Q05_02_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1556,6 +1642,7 @@
         "sourceFiles": [
           "Q05_03_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_03_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1567,6 +1654,7 @@
         "sourceFiles": [
           "Q05_03_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_03_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1578,6 +1666,7 @@
         "sourceFiles": [
           "Q05_03_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q05_03_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
