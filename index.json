@@ -2452,6 +2452,7 @@
         "sourceFiles": [
           "List08_01.sql"
         ],
+        "setupFile": "pre_ssql2-List08_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2463,6 +2464,7 @@
         "sourceFiles": [
           "List08_02.sql"
         ],
+        "setupFile": "pre_ssql2-List08_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2474,6 +2476,7 @@
         "sourceFiles": [
           "List08_03.sql"
         ],
+        "setupFile": "pre_ssql2-List08_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2485,6 +2488,7 @@
         "sourceFiles": [
           "List08_04.sql"
         ],
+        "setupFile": "pre_ssql2-List08_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2496,6 +2500,7 @@
         "sourceFiles": [
           "List08_05.sql"
         ],
+        "setupFile": "pre_ssql2-List08_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2507,6 +2512,7 @@
         "sourceFiles": [
           "List08_06.sql"
         ],
+        "setupFile": "pre_ssql2-List08_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2518,6 +2524,7 @@
         "sourceFiles": [
           "List08_07.sql"
         ],
+        "setupFile": "pre_ssql2-List08_07.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2529,6 +2536,7 @@
         "sourceFiles": [
           "List08_08.sql"
         ],
+        "setupFile": "pre_ssql2-List08_08.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2540,6 +2548,7 @@
         "sourceFiles": [
           "List08_09.sql"
         ],
+        "setupFile": "pre_ssql2-List08_09.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2551,6 +2560,43 @@
         "sourceFiles": [
           "List08_10.sql"
         ],
+        "setupFile": "pre_ssql2-List08_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can08_01",
+        "label_header": "できるようになったこと",
+        "label": "家計簿テーブルと費目テーブルを結合して、費目を日本語で表示したい！",
+        "sourceFiles": [
+          "Can08_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can08_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can08_02",
+        "label_header": "できるようになったこと",
+        "label": "家計簿テーブルの費目IDが定義されていない行も結果表に出力されるように結合したい",
+        "sourceFiles": [
+          "Can08_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can08_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can08_03",
+        "label_header": "できるようになったこと",
+        "label": "「給料」という名前の費目に関する、家計簿テーブルの行を見たい",
+        "sourceFiles": [
+          "Can08_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can08_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2562,6 +2608,7 @@
         "sourceFiles": [
           "Q08_01_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_01_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2573,6 +2620,7 @@
         "sourceFiles": [
           "Q08_01_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_01_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2584,6 +2632,7 @@
         "sourceFiles": [
           "Q08_01_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_01_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2595,6 +2644,7 @@
         "sourceFiles": [
           "Q08_01_4.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_01_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2606,17 +2656,7 @@
         "sourceFiles": [
           "Q08_02_1.sql"
         ],
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-Q08_02_1",
-        "label_header": "",
-        "label": "問題8-2-1",
-        "sourceFiles": [
-          "Q08_02_1.sql"
-        ],
+        "setupFile": "pre_ssql2-Q08_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2628,6 +2668,7 @@
         "sourceFiles": [
           "Q08_02_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2639,6 +2680,7 @@
         "sourceFiles": [
           "Q08_02_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2650,6 +2692,7 @@
         "sourceFiles": [
           "Q08_02_4.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_02_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2661,6 +2704,7 @@
         "sourceFiles": [
           "Q08_02_5.sql"
         ],
+        "setupFile": "pre_ssql2-Q08_02_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
