@@ -556,6 +556,66 @@
         "loadMessage": null
       },
       {
+        "id": "ssql2-Can03_01",
+        "label_header": "できるようになったこと",
+        "label": "３月１日に使った食費を知りたい",
+        "sourceFiles": [
+          "Can03_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_02",
+        "label_header": "できるようになったこと",
+        "label": "支出に関係ない行を取り出したい",
+        "sourceFiles": [
+          "Can03_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_03",
+        "label_header": "できるようになったこと",
+        "label": "メモに「購入」を含む支払いを調べたい",
+        "sourceFiles": [
+          "Can03_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_04",
+        "label_header": "できるようになったこと",
+        "label": "住居費(家賃、電気代、水道代の総称)に関わる支払いを調べたい",
+        "sourceFiles": [
+          "Can03_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_05",
+        "label_header": "できるようになったこと",
+        "label": "３月の行だけを取り出したい",
+        "sourceFiles": [
+          "Can03_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
         "id": "ssql2-Q03_01_1",
         "label_header": "",
         "label": "問題3-1-1",
