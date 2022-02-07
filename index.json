@@ -1744,6 +1744,7 @@
         "sourceFiles": [
           "List06_01.sql"
         ],
+        "setupFile": "pre_ssql2-List06_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1755,6 +1756,7 @@
         "sourceFiles": [
           "List06_02.sql"
         ],
+        "setupFile": "pre_ssql2-List06_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1766,6 +1768,7 @@
         "sourceFiles": [
           "List06_03.sql"
         ],
+        "setupFile": "pre_ssql2-List06_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1777,6 +1780,7 @@
         "sourceFiles": [
           "List06_04.sql"
         ],
+        "setupFile": "pre_ssql2-List06_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1788,6 +1792,7 @@
         "sourceFiles": [
           "List06_05.sql"
         ],
+        "setupFile": "pre_ssql2-List06_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1799,6 +1804,7 @@
         "sourceFiles": [
           "List06_06_1.sql"
         ],
+        "setupFile": "pre_ssql2-List06_06_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1810,6 +1816,7 @@
         "sourceFiles": [
           "List06_06_2.sql"
         ],
+        "setupFile": "pre_ssql2-List06_06_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1821,6 +1828,7 @@
         "sourceFiles": [
           "List06_06_3.sql"
         ],
+        "setupFile": "pre_ssql2-List06_06_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1832,6 +1840,7 @@
         "sourceFiles": [
           "List06_07.sql"
         ],
+        "setupFile": "pre_ssql2-List06_07.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1843,6 +1852,7 @@
         "sourceFiles": [
           "List06_08.sql"
         ],
+        "setupFile": "pre_ssql2-List06_08.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1854,6 +1864,7 @@
         "sourceFiles": [
           "List06_09.sql"
         ],
+        "setupFile": "pre_ssql2-List06_09.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1865,6 +1876,79 @@
         "sourceFiles": [
           "List06_10.sql"
         ],
+        "setupFile": "pre_ssql2-List06_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_01",
+        "label_header": "できるようになったこと",
+        "label": "今月の収入と支出の合計額を知りたい",
+        "sourceFiles": [
+          "Can06_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_02",
+        "label_header": "できるようになったこと",
+        "label": "今月の食費を支払った回数を知りたい",
+        "sourceFiles": [
+          "Can06_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_03",
+        "label_header": "できるようになったこと",
+        "label": "先月までの水道光熱費で、最も高かった額と低かった額を知りたい",
+        "sourceFiles": [
+          "Can06_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_04",
+        "label_header": "できるようになったこと",
+        "label": "先月までの給料の平均額を知りたい",
+        "sourceFiles": [
+          "Can06_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_05",
+        "label_header": "できるようになったこと",
+        "label": "先月までの費目ごとの出費額を知りたい",
+        "sourceFiles": [
+          "Can06_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_06",
+        "label_header": "できるようになったこと",
+        "label": "今月の出費のうち、平均が5,000円以上の費目とその最大額を知りたい",
+        "sourceFiles": [
+          "Can06_06.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1876,6 +1960,7 @@
         "sourceFiles": [
           "Q06_01_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_01_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1887,6 +1972,7 @@
         "sourceFiles": [
           "Q06_01_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_01_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1898,6 +1984,7 @@
         "sourceFiles": [
           "Q06_01_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_01_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1909,6 +1996,7 @@
         "sourceFiles": [
           "Q06_01_4.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_01_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1920,6 +2008,7 @@
         "sourceFiles": [
           "Q06_01_5.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_01_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1931,6 +2020,7 @@
         "sourceFiles": [
           "Q06_01_6.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_01_6.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1942,6 +2032,7 @@
         "sourceFiles": [
           "Q06_02_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1953,6 +2044,7 @@
         "sourceFiles": [
           "Q06_02_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1964,6 +2056,7 @@
         "sourceFiles": [
           "Q06_02_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1975,6 +2068,7 @@
         "sourceFiles": [
           "Q06_02_4.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_02_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1986,6 +2080,7 @@
         "sourceFiles": [
           "Q06_02_5.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_02_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1997,6 +2092,7 @@
         "sourceFiles": [
           "Q06_03_1.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_03_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2008,6 +2104,7 @@
         "sourceFiles": [
           "Q06_03_2.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_03_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2019,6 +2116,7 @@
         "sourceFiles": [
           "Q06_03_3.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_03_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2030,6 +2128,7 @@
         "sourceFiles": [
           "Q06_03_4.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_03_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2041,6 +2140,7 @@
         "sourceFiles": [
           "Q06_03_5.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_03_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2052,6 +2152,7 @@
         "sourceFiles": [
           "Q06_03_6.sql"
         ],
+        "setupFile": "pre_ssql2-Q06_03_6.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
