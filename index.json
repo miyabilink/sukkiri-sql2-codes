@@ -3258,6 +3258,7 @@
         "sourceFiles": [
           "List11_10_2_pre.sql"
         ],
+        "setupFile": "List11_10_2_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3305,6 +3306,7 @@
         "sourceFiles": [
           "List11_11_2_pre.sql"
         ],
+        "setupFile": "List11_11_2_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3363,6 +3365,7 @@
         "sourceFiles": [
           "List11_12_2_pre.sql"
         ],
+        "setupFile": "List11_12_2_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3386,6 +3389,7 @@
         "sourceFiles": [
           "List11_12_3_pre.sql"
         ],
+        "setupFile": "List11_12_3_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3409,6 +3413,7 @@
         "sourceFiles": [
           "List11_13_pre.sql"
         ],
+        "setupFile": "List11_13_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3501,6 +3506,7 @@
         "sourceFiles": [
           "Q11_02_3_pre.sql"
         ],
+        "setupFile": "Q11_02_3_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
