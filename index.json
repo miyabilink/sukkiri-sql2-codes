@@ -3067,6 +3067,7 @@
         "sourceFiles": [
           "List11_01.sql"
         ],
+        "setupFile": "List11_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3078,6 +3079,7 @@
         "sourceFiles": [
           "List11_02.sql"
         ],
+        "setupFile": "List11_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3089,6 +3091,7 @@
         "sourceFiles": [
           "List11_03.sql"
         ],
+        "setupFile": "List11_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3100,6 +3103,7 @@
         "sourceFiles": [
           "List11_04.sql"
         ],
+        "setupFile": "List11_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3111,6 +3115,7 @@
         "sourceFiles": [
           "List11_05.sql"
         ],
+        "setupFile": "List11_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3122,6 +3127,7 @@
         "sourceFiles": [
           "List11_06_1.sql"
         ],
+        "setupFile": "List11_06_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3133,6 +3139,7 @@
         "sourceFiles": [
           "List11_06_2.sql"
         ],
+        "setupFile": "List11_06_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3144,6 +3151,7 @@
         "sourceFiles": [
           "List11_07.sql"
         ],
+        "setupFile": "List11_07.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3155,6 +3163,7 @@
         "sourceFiles": [
           "List11_08_1.sql"
         ],
+        "setupFile": "List11_08_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3166,6 +3175,7 @@
         "sourceFiles": [
           "List11_08_2.sql"
         ],
+        "setupFile": "List11_08_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3177,6 +3187,7 @@
         "sourceFiles": [
           "List11_09_1.sql"
         ],
+        "setupFile": "List11_09_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3188,6 +3199,7 @@
         "sourceFiles": [
           "List11_09_2.sql"
         ],
+        "setupFile": "List11_09_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3198,7 +3210,7 @@
         "label": "各DBMSにおける連番の指定",
         "sourceFiles": [
           "List11_09_3.sql"
-        ],
+        ],"setupFile": "List11_09_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3210,6 +3222,7 @@
         "sourceFiles": [
           "List11_09_4.sql"
         ],
+        "setupFile": "List11_09_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3221,6 +3234,7 @@
         "sourceFiles": [
           "List11_10_1.sql"
         ],
+        "setupFile": "List11_10_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3232,6 +3246,7 @@
         "sourceFiles": [
           "List11_10_2.sql"
         ],
+        "setupFile": "List11_10_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3254,6 +3269,7 @@
         "sourceFiles": [
           "List11_10_3.sql"
         ],
+        "setupFile": "List11_10_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3265,6 +3281,7 @@
         "sourceFiles": [
           "List11_11_1.sql"
         ],
+        "setupFile": "List11_11_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3276,6 +3293,7 @@
         "sourceFiles": [
           "List11_11_2.sql"
         ],
+        "setupFile": "List11_11_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3298,6 +3316,7 @@
         "sourceFiles": [
           "List11_11_3.sql"
         ],
+        "setupFile": "List11_11_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3320,6 +3339,7 @@
         "sourceFiles": [
           "List11_12_1.sql"
         ],
+        "setupFile": "List11_12_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3331,6 +3351,7 @@
         "sourceFiles": [
           "List11_12_2.sql"
         ],
+        "setupFile": "List11_12_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3353,6 +3374,7 @@
         "sourceFiles": [
           "List11_12_3.sql"
         ],
+        "setupFile": "List11_12_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3375,6 +3397,7 @@
         "sourceFiles": [
           "List11_13.sql"
         ],
+        "setupFile": "List11_13.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3391,12 +3414,58 @@
         "loadMessage": null
       },
       {
+        "id": "ssql2-Can11_01",
+        "label_header": "できるようになったこと",
+        "label": "日付での並び替えや費目IDによる結合を行う家計簿テーブルの検索を高速に行いたい",
+        "sourceFiles": [
+          "Can11_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can11_02",
+        "label_header": "できるようになったこと",
+        "label": "費目テーブルと結合済みの家計簿をビューを利用して手軽に使えるようにしたい",
+        "sourceFiles": [
+          "Can11_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can11_03",
+        "label_header": "できるようになったこと",
+        "label": "費目IDに連番を振るためのシーケンスを準備したい(Oracle DBを想定)",
+        "sourceFiles": [
+          "Can11_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can11_04",
+        "label_header": "できるようになったこと",
+        "label": "シーケンスを使って、費目テーブルに「接待交際費」を追加したい(Oracle DBを想定)",
+        "sourceFiles": [
+          "Can11_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
         "id": "ssql2-Q11_02_0",
         "label_header": "",
         "label": "問題11-2-0",
         "sourceFiles": [
           "Q11_02_0.sql"
         ],
+        "setupFile": "Q11_02_0.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3408,6 +3477,7 @@
         "sourceFiles": [
           "Q11_02_2.sql"
         ],
+        "setupFile": "Q11_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3419,6 +3489,7 @@
         "sourceFiles": [
           "Q11_02_3.sql"
         ],
+        "setupFile": "Q11_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
