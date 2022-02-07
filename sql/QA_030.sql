@@ -1,6 +1,0 @@
-SELECT 名義
-  FROM 口座
-EXCEPT
-SELECT 名義
-  FROM 廃止口座
- ORDER BY 1 DESC

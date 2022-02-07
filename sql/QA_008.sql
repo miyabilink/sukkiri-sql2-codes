@@ -1,1 +1,0 @@
-DELETE FROM 口座
