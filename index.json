@@ -3518,6 +3518,7 @@
         "sourceFiles": [
           "List12-01.sql"
         ],
+        "setupFile": "List12-01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3529,6 +3530,7 @@
         "sourceFiles": [
           "List12-02.sql"
         ],
+        "setupFile": "List12-02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3540,6 +3542,7 @@
         "sourceFiles": [
           "Q12_02.sql"
         ],
+        "setupFile": "Q12_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
