@@ -1,3 +1,0 @@
-SELECT DISTINCT 名義
-  FROM 口座
- ORDER BY 名義
