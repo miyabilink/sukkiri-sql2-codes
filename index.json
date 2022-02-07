@@ -2170,6 +2170,7 @@
         "sourceFiles": [
           "List07_01.sql"
         ],
+        "setupFile": "pre_ssql2-List07_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2181,6 +2182,7 @@
         "sourceFiles": [
           "List07_02.sql"
         ],
+        "setupFile": "pre_ssql2-List07_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2192,6 +2194,7 @@
         "sourceFiles": [
           "List07_03.sql"
         ],
+        "setupFile": "pre_ssql2-List07_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2203,6 +2206,7 @@
         "sourceFiles": [
           "List07_04.sql"
         ],
+        "setupFile": "pre_ssql2-List07_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2214,6 +2218,7 @@
         "sourceFiles": [
           "List07_05.sql"
         ],
+        "setupFile": "pre_ssql2-List07_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2225,6 +2230,7 @@
         "sourceFiles": [
           "List07_06.sql"
         ],
+        "setupFile": "pre_ssql2-List07_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2236,6 +2242,7 @@
         "sourceFiles": [
           "List07_07.sql"
         ],
+        "setupFile": "pre_ssql2-List07_07.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -2247,6 +2254,7 @@
         "sourceFiles": [
           "List07_08.sql"
         ],
+        "setupFile": "pre_ssql2-List07_08.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -2258,6 +2266,7 @@
         "sourceFiles": [
           "List07_09.sql"
         ],
+        "setupFile": "pre_ssql2-List07_09.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -2269,6 +2278,7 @@
         "sourceFiles": [
           "List07_10.sql"
         ],
+        "setupFile": "pre_ssql2-List07_10.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2280,6 +2290,7 @@
         "sourceFiles": [
           "List07_11.sql"
         ],
+        "setupFile": "pre_ssql2-List07_11.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2291,6 +2302,67 @@
         "sourceFiles": [
           "List07_12.sql"
         ],
+        "setupFile": "pre_ssql2-List07_12.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_01",
+        "label_header": "できるようになったこと",
+        "label": "食費の合計額を集計して集計テーブルを更新したい！",
+        "sourceFiles": [
+          "Can07_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_02",
+        "label_header": "できるようになったこと",
+        "label": "１月と12月の出金額の合計をそれぞれ知りたい",
+        "sourceFiles": [
+          "Can07_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_03",
+        "label_header": "できるようになったこと",
+        "label": "今月初めて発生した費目を知りたい",
+        "sourceFiles": [
+          "Can07_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_04",
+        "label_header": "できるようになったこと",
+        "label": "今年の給料で去年よりも高い額があれば知りたい…",
+        "sourceFiles": [
+          "Can07_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_05",
+        "label_header": "できるようになったこと",
+        "label": "今月の家計簿データをアーカイブしたい！",
+        "sourceFiles": [
+          "Can07_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2302,6 +2374,7 @@
         "sourceFiles": [
           "Q07_02_1.sql"
         ],
+        "setupFile": "pre_ssql2-List07_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2313,6 +2386,7 @@
         "sourceFiles": [
           "Q07_02_2.sql"
         ],
+        "setupFile": "pre_ssql2-List07_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2324,6 +2398,7 @@
         "sourceFiles": [
           "Q07_02_3.sql"
         ],
+        "setupFile": "pre_ssql2-List07_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2335,6 +2410,7 @@
         "sourceFiles": [
           "Q07_03_1.sql"
         ],
+        "setupFile": "pre_ssql2-List07_03_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2346,6 +2422,7 @@
         "sourceFiles": [
           "Q07_03_2.sql"
         ],
+        "setupFile": "pre_ssql2-List07_03_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2357,6 +2434,7 @@
         "sourceFiles": [
           "Q07_03_3.sql"
         ],
+        "setupFile": "pre_ssql2-List07_03_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
