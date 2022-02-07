@@ -3566,6 +3566,7 @@
         "sourceFiles": [
           "QA_001.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3577,6 +3578,7 @@
         "sourceFiles": [
           "QA_002.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3588,6 +3590,7 @@
         "sourceFiles": [
           "QA_003.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3599,6 +3602,7 @@
         "sourceFiles": [
           "QA_004.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3610,6 +3614,7 @@
         "sourceFiles": [
           "QA_005.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3621,6 +3626,7 @@
         "sourceFiles": [
           "QA_006.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3632,6 +3638,7 @@
         "sourceFiles": [
           "QA_007.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3643,6 +3650,7 @@
         "sourceFiles": [
           "QA_008.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3654,6 +3662,7 @@
         "sourceFiles": [
           "QA_009.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3665,6 +3674,7 @@
         "sourceFiles": [
           "QA_010.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3676,6 +3686,7 @@
         "sourceFiles": [
           "QA_011.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3687,6 +3698,7 @@
         "sourceFiles": [
           "QA_012.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3698,6 +3710,7 @@
         "sourceFiles": [
           "QA_013.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3709,6 +3722,7 @@
         "sourceFiles": [
           "QA_014.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3720,6 +3734,7 @@
         "sourceFiles": [
           "QA_015.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3731,6 +3746,7 @@
         "sourceFiles": [
           "QA_016.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3742,6 +3758,7 @@
         "sourceFiles": [
           "QA_017.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3753,6 +3770,7 @@
         "sourceFiles": [
           "QA_018.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3764,6 +3782,7 @@
         "sourceFiles": [
           "QA_019.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3775,6 +3794,7 @@
         "sourceFiles": [
           "QA_020.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3786,6 +3806,7 @@
         "sourceFiles": [
           "QA_021.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3797,6 +3818,7 @@
         "sourceFiles": [
           "QA_022.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3808,6 +3830,7 @@
         "sourceFiles": [
           "QA_023.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3819,6 +3842,7 @@
         "sourceFiles": [
           "QA_024.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3830,6 +3854,7 @@
         "sourceFiles": [
           "QA_025.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3841,6 +3866,7 @@
         "sourceFiles": [
           "QA_026.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3852,6 +3878,7 @@
         "sourceFiles": [
           "QA_027.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3863,6 +3890,7 @@
         "sourceFiles": [
           "QA_028.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3874,6 +3902,7 @@
         "sourceFiles": [
           "QA_029.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3885,6 +3914,7 @@
         "sourceFiles": [
           "QA_030.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3896,6 +3926,7 @@
         "sourceFiles": [
           "QA_031.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3907,6 +3938,7 @@
         "sourceFiles": [
           "QA_032.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3918,6 +3950,7 @@
         "sourceFiles": [
           "QA_033.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3929,6 +3962,7 @@
         "sourceFiles": [
           "QA_034.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3940,6 +3974,7 @@
         "sourceFiles": [
           "QA_035.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3951,6 +3986,7 @@
         "sourceFiles": [
           "QA_036_pre.sql"
         ],
+        "setupFile": "pre_ssql2-QA_036_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3962,6 +3998,7 @@
         "sourceFiles": [
           "QA_036_pre.sql"
         ],
+        "setupFile": "pre_ssql2-QA_036_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3973,6 +4010,7 @@
         "sourceFiles": [
           "QA_037.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3984,6 +4022,7 @@
         "sourceFiles": [
           "QA_038.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3995,6 +4034,7 @@
         "sourceFiles": [
           "QA_039.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4006,6 +4046,7 @@
         "sourceFiles": [
           "QA_040.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4017,6 +4058,7 @@
         "sourceFiles": [
           "QA_041.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4028,6 +4070,7 @@
         "sourceFiles": [
           "QA_042.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4039,6 +4082,7 @@
         "sourceFiles": [
           "QA_043.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4050,6 +4094,7 @@
         "sourceFiles": [
           "QA_044.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4061,6 +4106,7 @@
         "sourceFiles": [
           "QA_045.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4072,6 +4118,7 @@
         "sourceFiles": [
           "QA_046.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4083,6 +4130,7 @@
         "sourceFiles": [
           "QA_047.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4094,6 +4142,7 @@
         "sourceFiles": [
           "QA_048.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4105,6 +4154,7 @@
         "sourceFiles": [
           "QA_049.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4116,6 +4166,7 @@
         "sourceFiles": [
           "QA_050.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4127,6 +4178,7 @@
         "sourceFiles": [
           "QA_051.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4138,6 +4190,7 @@
         "sourceFiles": [
           "QA_052.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4149,6 +4202,7 @@
         "sourceFiles": [
           "QA_053.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4160,6 +4214,7 @@
         "sourceFiles": [
           "QA_054.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4171,6 +4226,7 @@
         "sourceFiles": [
           "QA_055.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4182,6 +4238,7 @@
         "sourceFiles": [
           "QA_056.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4193,6 +4250,7 @@
         "sourceFiles": [
           "QA_057.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4204,6 +4262,7 @@
         "sourceFiles": [
           "QA_058.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4215,6 +4274,7 @@
         "sourceFiles": [
           "QA_059.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4226,6 +4286,7 @@
         "sourceFiles": [
           "QA_060.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4237,6 +4298,7 @@
         "sourceFiles": [
           "QA_061.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4248,6 +4310,7 @@
         "sourceFiles": [
           "QA_062.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4259,6 +4322,7 @@
         "sourceFiles": [
           "QA_063.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4270,6 +4334,7 @@
         "sourceFiles": [
           "QA_064.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4281,6 +4346,7 @@
         "sourceFiles": [
           "QA_065.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4292,6 +4358,7 @@
         "sourceFiles": [
           "QA_066.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4303,6 +4370,7 @@
         "sourceFiles": [
           "QA_067.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4314,6 +4382,7 @@
         "sourceFiles": [
           "QA_068.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4325,6 +4394,7 @@
         "sourceFiles": [
           "QA_069.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4336,6 +4406,7 @@
         "sourceFiles": [
           "QA_070.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4347,6 +4418,7 @@
         "sourceFiles": [
           "QA_071.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4358,6 +4430,7 @@
         "sourceFiles": [
           "QA_072.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4369,6 +4442,7 @@
         "sourceFiles": [
           "QA_073.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4380,6 +4454,7 @@
         "sourceFiles": [
           "QA_074.sql"
         ],
+        "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4391,6 +4466,7 @@
         "sourceFiles": [
           "QA_075_pre.sql"
         ],
+        "setupFile": "pre_ssql2-QA_075_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -4402,6 +4478,7 @@
         "sourceFiles": [
           "QA_075.sql"
         ],
+        "setupFile": "pre_ssql2-QA_075.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
