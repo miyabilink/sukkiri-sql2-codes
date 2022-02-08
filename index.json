@@ -3556,7 +3556,7 @@
     ]
   },
   {
-    "id": "chapA",
+    "id": "drillA",
     "label": "練習問題A 銀行口座データベース",
     "children": [
       {
@@ -4486,7 +4486,7 @@
     ]
   },
   {
-    "id": "chapB",
+    "id": "drillB",
     "label": "練習問題B 商店データベース",
     "children": [
       {
@@ -5344,7 +5344,7 @@
     ]
   },
   {
-    "id": "chapC",
+    "id": "drillC",
     "label": "練習問題C RPGデータベース",
     "children": [
       {
