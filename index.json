@@ -5264,7 +5264,7 @@
         "sourceFiles": [
           "QB_064.sql"
         ],
-        "setupFile": "pre_ssql2-QB_064.sql",
+        "setupFile": "pre_ssql2-QB_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5276,7 +5276,7 @@
         "sourceFiles": [
           "QB_065.sql"
         ],
-        "setupFile": "pre_ssql2-QB_065.sql",
+        "setupFile": "pre_ssql2-QB_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5288,7 +5288,7 @@
         "sourceFiles": [
           "QB_066.sql"
         ],
-        "setupFile": "pre_ssql2-QB_066.sql",
+        "setupFile": "pre_ssql2-QB_fix02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5300,7 +5300,7 @@
         "sourceFiles": [
           "QB_067.sql"
         ],
-        "setupFile": "pre_ssql2-QB_067.sql",
+        "setupFile": "pre_ssql2-QB_fix02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
