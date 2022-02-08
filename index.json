@@ -5354,7 +5354,7 @@
         "sourceFiles": [
           "QC_001_pre.sql"
         ],
-        "setupFile": "pre_ssql2-QC_001_pre.sql",
+        "setupFile": "pre_ssql2-QC_fix02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5366,7 +5366,7 @@
         "sourceFiles": [
           "QC_001.sql"
         ],
-        "setupFile": "pre_ssql2-QC_001.sql",
+        "setupFile": "pre_ssql2-QC_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5378,7 +5378,7 @@
         "sourceFiles": [
           "QC_002_pre.sql"
         ],
-        "setupFile": "pre_ssql2-QC_002_pre.sql",
+        "setupFile": "pre_ssql2-QC_fix02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5390,7 +5390,7 @@
         "sourceFiles": [
           "QC_002.sql"
         ],
-        "setupFile": "pre_ssql2-QC_002.sql",
+        "setupFile": "pre_ssql2-QC_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5426,7 +5426,7 @@
         "sourceFiles": [
           "QC_005_pre.sql"
         ],
-        "setupFile": "pre_ssql2-QC_005_pre.sql",
+        "setupFile": "pre_ssql2-QC_fix02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5438,7 +5438,7 @@
         "sourceFiles": [
           "QC_005.sql"
         ],
-        "setupFile": "pre_ssql2-QC_005.sql",
+        "setupFile": "pre_ssql2-QC_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
