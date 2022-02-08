@@ -1,0 +1,6376 @@
+[
+  {
+    "id": "chap01",
+    "label": "第1章 はじめてのSQL",
+    "children": [
+      {
+        "id": "ssql2-List01_01",
+        "label_header": "リスト1-1",
+        "label": "はじめての検索",
+        "sourceFiles": [
+          "List01_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List01_02",
+        "label_header": "リスト1-2",
+        "label": "すべての列を検索する",
+        "sourceFiles": [
+          "List01_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List01_03",
+        "label_header": "リスト1-3",
+        "label": "すべての列を取得する（簡略記法）",
+        "sourceFiles": [
+          "List01_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List01_04",
+        "label_header": "リスト1-4",
+        "label": "出金額が3,000円を超える行だけを取得する",
+        "sourceFiles": [
+          "List01_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List01_05",
+        "label_header": "リスト1-5",
+        "label": "3月の家賃の支払いを行として挿入する",
+        "sourceFiles": [
+          "List01_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List01_06",
+        "label_header": "リスト1-6",
+        "label": "「2018年2月25日の出金額」を90,000円に更新する",
+        "sourceFiles": [
+          "List01_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q01_03_1",
+        "label_header": "",
+        "label": "問題1-3-1",
+        "sourceFiles": [
+          "Q01_03_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q01_03_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q01_03_2",
+        "label_header": "",
+        "label": "問題1-3-2",
+        "sourceFiles": [
+          "Q01_03_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q01_03_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q01_03_3",
+        "label_header": "",
+        "label": "問題1-3-3",
+        "sourceFiles": [
+          "Q01_03_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q01_03_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap02",
+    "label": "第2章 基本文法と4大命令",
+    "children": [
+      {
+        "id": "ssql2-List02_01",
+        "label_header": "リスト2-1",
+        "label": "1行で記述されたSELECT文",
+        "sourceFiles": [
+          "List02_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_02",
+        "label_header": "リスト2-2",
+        "label": "整形されたSELECT文",
+        "sourceFiles": [
+          "List02_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_03",
+        "label_header": "リスト2-3",
+        "label": "コメントを記述したSQL",
+        "sourceFiles": [
+          "List02_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_04",
+        "label_header": "リスト2-4",
+        "label": "３ヶ月分の家賃支払を行として挿入する（リスト1−5の再掲",
+        "sourceFiles": [
+          "List02_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_05",
+        "label_header": "リスト2-5",
+        "label": "入金額と出金額を文字列情報として指定してしまった例",
+        "sourceFiles": [
+          "List02_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_06",
+        "label_header": "リスト2-6",
+        "label": "複数の列を取得するSELECT文",
+        "sourceFiles": [
+          "List02_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_07",
+        "label_header": "リスト2-7",
+        "label": "ASを用いて別名を定義したSELECT文",
+        "sourceFiles": [
+          "List02_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_08",
+        "label_header": "リスト2-8",
+        "label": "1つの列を更新するUPDATE文",
+        "sourceFiles": [
+          "List02_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_09",
+        "label_header": "リスト2-9",
+        "label": "条件付きのUPDATE文",
+        "sourceFiles": [
+          "List02_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_10",
+        "label_header": "リスト2-10",
+        "label": "DELETE文の例",
+        "sourceFiles": [
+          "List02_10.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_11",
+        "label_header": "リスト2-11",
+        "label": "複数の列に追加するINSERT文",
+        "sourceFiles": [
+          "List02_11.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List02_12",
+        "label_header": "リスト2-12",
+        "label": "全列に追加するINSERT文",
+        "sourceFiles": [
+          "List02_12.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can02_01",
+        "label_header": "できるようになったこと",
+        "label": "家計簿の内容をすべて表示したい",
+        "sourceFiles": [
+          "Can02_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can02_02",
+        "label_header": "できるようになったこと",
+        "label": "2000円より大きな金額を使った日を知りたい",
+        "sourceFiles": [
+          "Can02_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can02_03",
+        "label_header": "できるようになったこと",
+        "label": "3月1日に1800円で映画を見た記録を追加したい",
+        "sourceFiles": [
+          "Can02_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can02_04",
+        "label_header": "できるようになったこと",
+        "label": "3月1日の映画は1500円の誤りだったので修正したい",
+        "sourceFiles": [
+          "Can02_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can02_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can02_05",
+        "label_header": "できるようになったこと",
+        "label": "全データを消去したい",
+        "sourceFiles": [
+          "Can02_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_03_1",
+        "label_header": "",
+        "label": "問題2-3-1",
+        "sourceFiles": [
+          "Q02_03_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_03_2",
+        "label_header": "",
+        "label": "問題2-3-2",
+        "sourceFiles": [
+          "Q02_03_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_03_3",
+        "label_header": "",
+        "label": "問題2-3-3",
+        "sourceFiles": [
+          "Q02_03_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_04_1",
+        "label_header": "",
+        "label": "問題2-4-1",
+        "sourceFiles": [
+          "Q02_04_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_04_2",
+        "label_header": "",
+        "label": "問題2-4-2",
+        "sourceFiles": [
+          "Q02_04_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_04_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_04_3",
+        "label_header": "",
+        "label": "問題2-4-3",
+        "sourceFiles": [
+          "Q02_04_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_04_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_05_1",
+        "label_header": "",
+        "label": "問題2-5-1",
+        "sourceFiles": [
+          "Q02_05_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_05_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_05_3",
+        "label_header": "",
+        "label": "問題2-5-3",
+        "sourceFiles": [
+          "Q02_05_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_05_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q02_06",
+        "label_header": "",
+        "label": "問題2-6",
+        "sourceFiles": [
+          "Q02_06.sql"
+        ],
+        "setupFile": "pre_ssql2-Q02_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap03",
+    "label": "第3章 操作する行の絞り込み",
+    "children": [
+      {
+        "id": "ssql2-List03_01",
+        "label_header": "リスト3-1",
+        "label": "1円以上の出金のあった行を全て削除するDELETE文",
+        "sourceFiles": [
+          "List03_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_02",
+        "label_header": "リスト3-2",
+        "label": "正しいNULLの判定方法",
+        "sourceFiles": [
+          "List03_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_03",
+        "label_header": "リスト3-3",
+        "label": "1月に関連する行を取得するSELECT文",
+        "sourceFiles": [
+          "List03_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_04",
+        "label_header": "リスト3-4",
+        "label": "100~3,000円の出費を取得するSELECT文",
+        "sourceFiles": [
+          "List03_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_05",
+        "label_header": "リスト3-5",
+        "label": "食費・交際費を取得するSELECT文",
+        "sourceFiles": [
+          "List03_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_06",
+        "label_header": "リスト3-6",
+        "label": "食費でも交際費でもない行を取得するSELECT文",
+        "sourceFiles": [
+          "List03_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_07",
+        "label_header": "リスト3-7",
+        "label": "2つの条件式を組み合わせたWHERE句",
+        "sourceFiles": [
+          "List03_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_08",
+        "label_header": "リスト3-8",
+        "label": "複数の論理演算子を使ったSELECT文",
+        "sourceFiles": [
+          "List03_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_09",
+        "label_header": "リスト3-9",
+        "label": "複数の論理演算子を使ったSELECT文（条件式にカッコをつける）",
+        "sourceFiles": [
+          "List03_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List03_10",
+        "label_header": "リスト3-10",
+        "label": "上のヨシダシゲルさんだけを削除する",
+        "sourceFiles": [
+          "List03_10.sql"
+        ],
+        "setupFile": "pre_ssql2-List03_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_01",
+        "label_header": "できるようになったこと",
+        "label": "３月１日に使った食費を知りたい",
+        "sourceFiles": [
+          "Can03_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_02",
+        "label_header": "できるようになったこと",
+        "label": "支出に関係ない行を取り出したい",
+        "sourceFiles": [
+          "Can03_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_03",
+        "label_header": "できるようになったこと",
+        "label": "メモに「購入」を含む支払いを調べたい",
+        "sourceFiles": [
+          "Can03_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_04",
+        "label_header": "できるようになったこと",
+        "label": "住居費(家賃、電気代、水道代の総称)に関わる支払いを調べたい",
+        "sourceFiles": [
+          "Can03_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can03_05",
+        "label_header": "できるようになったこと",
+        "label": "３月の行だけを取り出したい",
+        "sourceFiles": [
+          "Can03_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can03_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_1",
+        "label_header": "",
+        "label": "問題3-1-1",
+        "sourceFiles": [
+          "Q03_01_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_2",
+        "label_header": "",
+        "label": "問題3-1-2",
+        "sourceFiles": [
+          "Q03_01_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_3",
+        "label_header": "",
+        "label": "問題3-1-3",
+        "sourceFiles": [
+          "Q03_01_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_4",
+        "label_header": "",
+        "label": "問題3-1-4",
+        "sourceFiles": [
+          "Q03_01_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_5",
+        "label_header": "",
+        "label": "問題3-1-5",
+        "sourceFiles": [
+          "Q03_01_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_6",
+        "label_header": "",
+        "label": "問題3-1-6",
+        "sourceFiles": [
+          "Q03_01_6.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_7_1",
+        "label_header": "",
+        "label": "問題3-1-7-1",
+        "sourceFiles": [
+          "Q03_01_7_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_7_2",
+        "label_header": "",
+        "label": "問題3-1-7-2",
+        "sourceFiles": [
+          "Q03_01_7_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_8_1",
+        "label_header": "",
+        "label": "問題3-1-8-1",
+        "sourceFiles": [
+          "Q03_01_8_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_8_2",
+        "label_header": "",
+        "label": "問題3-1-8-2",
+        "sourceFiles": [
+          "Q03_01_8_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_9",
+        "label_header": "",
+        "label": "問題3-1-9",
+        "sourceFiles": [
+          "Q03_01_9.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_10",
+        "label_header": "",
+        "label": "問題3-1-10",
+        "sourceFiles": [
+          "Q03_01_10.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_11_1",
+        "label_header": "",
+        "label": "問題3-1-11-1",
+        "sourceFiles": [
+          "Q03_01_11_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_11_2",
+        "label_header": "",
+        "label": "問題3-1-11-2",
+        "sourceFiles": [
+          "Q03_01_11_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_01_12",
+        "label_header": "",
+        "label": "問題3-1-12",
+        "sourceFiles": [
+          "Q03_01_12.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_02_1",
+        "label_header": "",
+        "label": "問題3-2-1",
+        "sourceFiles": [
+          "Q03_02_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_02_2",
+        "label_header": "",
+        "label": "問題3-2-2",
+        "sourceFiles": [
+          "Q03_02_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_02_3",
+        "label_header": "",
+        "label": "問題3-2-3",
+        "sourceFiles": [
+          "Q03_02_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_02_4",
+        "label_header": "",
+        "label": "問題3-2-4",
+        "sourceFiles": [
+          "Q03_02_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_02_5",
+        "label_header": "",
+        "label": "問題3-2-5",
+        "sourceFiles": [
+          "Q03_02_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_1",
+        "label_header": "",
+        "label": "問題3-3-1",
+        "sourceFiles": [
+          "Q03_03_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_2",
+        "label_header": "",
+        "label": "問題3-3-2",
+        "sourceFiles": [
+          "Q03_03_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_3",
+        "label_header": "",
+        "label": "問題3-3-3",
+        "sourceFiles": [
+          "Q03_03_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_4",
+        "label_header": "",
+        "label": "問題3-3-4",
+        "sourceFiles": [
+          "Q03_03_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_5_1",
+        "label_header": "",
+        "label": "問題3-3-5-1",
+        "sourceFiles": [
+          "Q03_03_5_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_5_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_5_2",
+        "label_header": "",
+        "label": "問題3-5-5-2",
+        "sourceFiles": [
+          "Q03_03_5_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_5_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_5_3",
+        "label_header": "",
+        "label": "問題3-3-5-3",
+        "sourceFiles": [
+          "Q03_03_5_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_5_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_5_4",
+        "label_header": "",
+        "label": "問題3-3-5-4",
+        "sourceFiles": [
+          "Q03_03_5_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_5_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q03_03_6",
+        "label_header": "",
+        "label": "問題3-3-6",
+        "sourceFiles": [
+          "Q03_03_6.sql"
+        ],
+        "setupFile": "pre_ssql2-Q03_03_6.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap04",
+    "label": "第4章 検索結果の加工",
+    "children": [
+      {
+        "id": "ssql2-List04_01",
+        "label_header": "リスト4-1",
+        "label": "DISTINCTを使わないSELECT文",
+        "sourceFiles": [
+          "List04_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_02",
+        "label_header": "リスト4-2",
+        "label": "DISTINCTを使ったSELECT文",
+        "sourceFiles": [
+          "List02_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_03",
+        "label_header": "リスト4-3",
+        "label": "費目一覧の取得",
+        "sourceFiles": [
+          "List04_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_04",
+        "label_header": "リスト4-4",
+        "label": "出金額で昇順となるよう並べ替えて取得する",
+        "sourceFiles": [
+          "List04_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_05",
+        "label_header": "リスト4-5",
+        "label": "日付で降順となるよう並べ替えて取得する",
+        "sourceFiles": [
+          "List04_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_06",
+        "label_header": "リスト4-6",
+        "label": "複数の列で並べ替える",
+        "sourceFiles": [
+          "List04_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_07",
+        "label_header": "リスト4-7",
+        "label": "列番号を指定するORDER BY句",
+        "sourceFiles": [
+          "List04_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_08",
+        "label_header": "リスト4-8",
+        "label": "出金額の高い順に３件を取得する",
+        "sourceFiles": [
+          "List04_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_09",
+        "label_header": "リスト4-9",
+        "label": "3番目に高い出金額だけを取得する",
+        "sourceFiles": [
+          "List04_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_10_1",
+        "label_header": "リスト4-10-1",
+        "label": "取得行を限定するそのほかの方法",
+        "sourceFiles": [
+          "List04_10_1.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_10_2",
+        "label_header": "リスト4-10-2",
+        "label": "取得行を限定するそのほかの方法",
+        "sourceFiles": [
+          "List04_10_2.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_11",
+        "label_header": "リスト4-11",
+        "label": "和集合を取得する",
+        "sourceFiles": [
+          "List04_11.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_12_1",
+        "label_header": "リスト4-12-1",
+        "label": "差集合を取得する",
+        "sourceFiles": [
+          "List04_12_1.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_12_2",
+        "label_header": "リスト4-12-2",
+        "label": "差集合を取得する",
+        "sourceFiles": [
+          "List04_12_2.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List04_13",
+        "label_header": "リスト4-13",
+        "label": "積集合を取得する",
+        "sourceFiles": [
+          "List04_13.sql"
+        ],
+        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can04_01",
+        "label_header": "できるようになったこと",
+        "label": "これまでに使った費目一覧を、重複を除外して作りたい",
+        "sourceFiles": [
+          "Can04_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can04_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can04_02",
+        "label_header": "できるようになったこと",
+        "label": "3月に使った金額を大きい順に取り出したい",
+        "sourceFiles": [
+          "Can04_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can04_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can04_03",
+        "label_header": "できるようになったこと",
+        "label": "これまでの給料を大きい順に5件だけ取り出したい",
+        "sourceFiles": [
+          "Can04_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can04_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can04_04",
+        "label_header": "できるようになったこと",
+        "label": "家計簿と、アーカイブにある2月のデータをまとめて日付順に取り出したい",
+        "sourceFiles": [
+          "Can04_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can04_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can04_05",
+        "label_header": "できるようになったこと",
+        "label": "今月初めて発生した費目を知りたい",
+        "sourceFiles": [
+          "Can04_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can04_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_01_1",
+        "label_header": "",
+        "label": "問題4-1-1",
+        "sourceFiles": [
+          "Q04_01_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_01_2",
+        "label_header": "",
+        "label": "問題4-1-2",
+        "sourceFiles": [
+          "Q04_01_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_01_3",
+        "label_header": "",
+        "label": "問題4-1-3",
+        "sourceFiles": [
+          "Q04_01_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_01_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_01_4",
+        "label_header": "",
+        "label": "問題4-1-4",
+        "sourceFiles": [
+          "Q04_01_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_01_5",
+        "label_header": "",
+        "label": "問題4-1-5",
+        "sourceFiles": [
+          "Q04_01_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_02_1",
+        "label_header": "",
+        "label": "問題4-2-1",
+        "sourceFiles": [
+          "Q04_02_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_02_2",
+        "label_header": "",
+        "label": "問題4-2-2",
+        "sourceFiles": [
+          "Q04_02_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_02_3",
+        "label_header": "",
+        "label": "問題4-2-3",
+        "sourceFiles": [
+          "Q04_02_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q04_02_4",
+        "label_header": "",
+        "label": "問題4-2-4",
+        "sourceFiles": [
+          "Q04_02_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap05",
+    "label": "第5章 式と関数",
+    "children": [
+      {
+        "id": "ssql2-List05_01",
+        "label_header": "リスト5-1",
+        "label": "選択列リストへのさまざまな指定",
+        "sourceFiles": [
+          "List05_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_02",
+        "label_header": "リスト5-2",
+        "label": "計算式に別名を付ける",
+        "sourceFiles": [
+          "List05_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_03",
+        "label_header": "リスト5-3",
+        "label": "INSERT文での計算式の利用",
+        "sourceFiles": [
+          "List05_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_04",
+        "label_header": "リスト5-4",
+        "label": "UPDATE文での計算式の利用（列を含む）",
+        "sourceFiles": [
+          "List05_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_05",
+        "label_header": "リスト5-5",
+        "label": "CASE演算子を使ったSELECT文（1）",
+        "sourceFiles": [
+          "List05_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_06",
+        "label_header": "リスト5-6",
+        "label": "CASE演算子を使ったSELECT文（2）",
+        "sourceFiles": [
+          "List05_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_07",
+        "label_header": "リスト5-7",
+        "label": "メモとメモの長さを併せて表示させる",
+        "sourceFiles": [
+          "List05_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_08",
+        "label_header": "リスト5-8",
+        "label": "10文字（10バイト）以下のメモだけを取得する",
+        "sourceFiles": [
+          "List05_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_08.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_09",
+        "label_header": "リスト5-9",
+        "label": "空白を除去したメモを取得する",
+        "sourceFiles": [
+          "List05_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_09.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_10",
+        "label_header": "リスト5-10",
+        "label": "メモの一部を置換する",
+        "sourceFiles": [
+          "List05_10.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_11",
+        "label_header": "リスト5-11",
+        "label": "費目列の1~3文字目に「費」があるものだけを抽出する",
+        "sourceFiles": [
+          "List05_11.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_11.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_12",
+        "label_header": "リスト5-12",
+        "label": "費目とメモを繋げて抽出する",
+        "sourceFiles": [
+          "List05_12.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_12.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_13",
+        "label_header": "リスト5-13",
+        "label": "百円単位の出金額を取得する",
+        "sourceFiles": [
+          "List05_13.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_13.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_14",
+        "label_header": "リスト5-14",
+        "label": "日付を自動的に取得して登録する",
+        "sourceFiles": [
+          "List05_14.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_14.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_15_1",
+        "label_header": "リスト5-15-1",
+        "label": "COALESCE関数の基本動作",
+        "sourceFiles": [
+          "List05_15_1.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_15_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_15_2",
+        "label_header": "リスト5-15-2",
+        "label": "COALESCE関数の基本動作",
+        "sourceFiles": [
+          "List05_15_2.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_15_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_15_3",
+        "label_header": "リスト5-15-3",
+        "label": "COALESCE関数の基本動作",
+        "sourceFiles": [
+          "List05_15_3.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_15_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_15_4",
+        "label_header": "リスト5-15-4",
+        "label": "COALESCE関数の基本動作",
+        "sourceFiles": [
+          "List05_15_4.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_15_5",
+        "label_header": "リスト5-15-5",
+        "label": "COALESCE関数の基本動作",
+        "sourceFiles": [
+          "List05_15_4.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_15_5.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List05_16",
+        "label_header": "リスト5-16",
+        "label": "NULLを明示的に表示する",
+        "sourceFiles": [
+          "List05_16.sql"
+        ],
+        "setupFile": "pre_ssql2-List05_16.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_01",
+        "label_header": "できるようになったこと",
+        "label": "家計簿で入出金の差額も表示したい",
+        "sourceFiles": [
+          "Can05_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_02",
+        "label_header": "できるようになったこと",
+        "label": "8文字以上のメモは、「…」で末尾を省略したい",
+        "sourceFiles": [
+          "Can05_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_03",
+        "label_header": "できるようになったこと",
+        "label": "「１ドル＝110円」と仮定して、入出金をドル表記(小数点以下切り捨て)したい",
+        "sourceFiles": [
+          "Can05_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_04",
+        "label_header": "できるようになったこと",
+        "label": "誤って未来の日付で登録されている不正な行を探したい",
+        "sourceFiles": [
+          "Can05_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can05_05",
+        "label_header": "できるようになったこと",
+        "label": "家計簿のメモを一覧表示したい。",
+        "sourceFiles": [
+          "Can05_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can05_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_01_1_1",
+        "label_header": "",
+        "label": "問題5-1-1-1",
+        "sourceFiles": [
+          "Q05_01_1_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_01_1_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_01_1_2",
+        "label_header": "",
+        "label": "問題5-1-1-2",
+        "sourceFiles": [
+          "Q05_01_1_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_01_1_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_01_1_3",
+        "label_header": "",
+        "label": "問題5-1-1-3",
+        "sourceFiles": [
+          "Q05_01_1_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_01_1_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_01_2",
+        "label_header": "",
+        "label": "問題5-1-2",
+        "sourceFiles": [
+          "Q05_01_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_01_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_02_1",
+        "label_header": "",
+        "label": "問題5-2-1",
+        "sourceFiles": [
+          "Q05_02_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_02_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_02_2",
+        "label_header": "",
+        "label": "問題5-2-2",
+        "sourceFiles": [
+          "Q05_02_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_02_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_03_1",
+        "label_header": "",
+        "label": "問題5-3-1",
+        "sourceFiles": [
+          "Q05_03_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_03_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_03_2",
+        "label_header": "",
+        "label": "問題5-3-2",
+        "sourceFiles": [
+          "Q05_03_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q05_03_3",
+        "label_header": "",
+        "label": "問題5-3-3",
+        "sourceFiles": [
+          "Q05_03_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q05_fix01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap06",
+    "label": "第6章 集計とグループ化",
+    "children": [
+      {
+        "id": "ssql2-List06_01",
+        "label_header": "リスト6-1",
+        "label": "出金額を集計する",
+        "sourceFiles": [
+          "List06_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_02",
+        "label_header": "リスト6-2",
+        "label": "さまざまな集計をする",
+        "sourceFiles": [
+          "List06_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_03",
+        "label_header": "リスト6-3",
+        "label": "食費の行数を数える",
+        "sourceFiles": [
+          "List06_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_04",
+        "label_header": "リスト6-4",
+        "label": "日付と出金額合計を取得するつもりのSELECT文",
+        "sourceFiles": [
+          "List06_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_05",
+        "label_header": "リスト6-5",
+        "label": "NULLをゼロとして平均を求める",
+        "sourceFiles": [
+          "List06_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_06_1",
+        "label_header": "リスト6-6-1",
+        "label": "SQL文をいくつも実行して、各費目の集計結果を得る方法",
+        "sourceFiles": [
+          "List06_06_1.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_06_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_06_2",
+        "label_header": "リスト6-6-2",
+        "label": "SQL文をいくつも実行して、各費目の集計結果を得る方法",
+        "sourceFiles": [
+          "List06_06_2.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_06_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_06-3",
+        "label_header": "リスト6-6-3",
+        "label": "SQL文をいくつも実行して、各費目の集計結果を得る方法",
+        "sourceFiles": [
+          "List06_06_3.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_06_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_07",
+        "label_header": "リスト6-7",
+        "label": "費目でグループ化してそれぞれの合計を求める",
+        "sourceFiles": [
+          "List06_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_08",
+        "label_header": "リスト6-8",
+        "label": "集計結果から行を取り除くSQL文（エラーになる）",
+        "sourceFiles": [
+          "List06_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_08.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_09",
+        "label_header": "リスト6-9",
+        "label": "集計結果で絞り込む",
+        "sourceFiles": [
+          "List06_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_09.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List06_10",
+        "label_header": "リスト6-10",
+        "label": "2017年の入出金の合計を算出",
+        "sourceFiles": [
+          "List06_10.sql"
+        ],
+        "setupFile": "pre_ssql2-List06_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_01",
+        "label_header": "できるようになったこと",
+        "label": "今月の収入と支出の合計額を知りたい",
+        "sourceFiles": [
+          "Can06_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_02",
+        "label_header": "できるようになったこと",
+        "label": "今月の食費を支払った回数を知りたい",
+        "sourceFiles": [
+          "Can06_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_03",
+        "label_header": "できるようになったこと",
+        "label": "先月までの水道光熱費で、最も高かった額と低かった額を知りたい",
+        "sourceFiles": [
+          "Can06_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_04",
+        "label_header": "できるようになったこと",
+        "label": "先月までの給料の平均額を知りたい",
+        "sourceFiles": [
+          "Can06_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_05",
+        "label_header": "できるようになったこと",
+        "label": "先月までの費目ごとの出費額を知りたい",
+        "sourceFiles": [
+          "Can06_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can06_06",
+        "label_header": "できるようになったこと",
+        "label": "今月の出費のうち、平均が5,000円以上の費目とその最大額を知りたい",
+        "sourceFiles": [
+          "Can06_06.sql"
+        ],
+        "setupFile": "pre_ssql2-Can06_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_01_1",
+        "label_header": "",
+        "label": "問題6-1-1",
+        "sourceFiles": [
+          "Q06_01_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_01_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_01_2",
+        "label_header": "",
+        "label": "問題6-1-2",
+        "sourceFiles": [
+          "Q06_01_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_01_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_01_3",
+        "label_header": "",
+        "label": "問題6-1-3",
+        "sourceFiles": [
+          "Q06_01_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_01_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_01_4",
+        "label_header": "",
+        "label": "問題6-1-4",
+        "sourceFiles": [
+          "Q06_01_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_01_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_01_5",
+        "label_header": "",
+        "label": "問題6-1-5",
+        "sourceFiles": [
+          "Q06_01_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_01_5.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_01_6",
+        "label_header": "",
+        "label": "問題6-1-6",
+        "sourceFiles": [
+          "Q06_01_6.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_01_6.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_02_1",
+        "label_header": "",
+        "label": "問題6-2-1",
+        "sourceFiles": [
+          "Q06_02_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_02_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_02_2",
+        "label_header": "",
+        "label": "問題6-2-2",
+        "sourceFiles": [
+          "Q06_02_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_02_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_02_3",
+        "label_header": "",
+        "label": "問題6-2-3",
+        "sourceFiles": [
+          "Q06_02_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_02_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_02_4",
+        "label_header": "",
+        "label": "問題6-2-4",
+        "sourceFiles": [
+          "Q06_02_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_02_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_02_5",
+        "label_header": "",
+        "label": "問題6-2-5",
+        "sourceFiles": [
+          "Q06_02_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_02_5.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_03_1",
+        "label_header": "",
+        "label": "問題6-3-1",
+        "sourceFiles": [
+          "Q06_03_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_03_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_03_2",
+        "label_header": "",
+        "label": "問題6-3-2",
+        "sourceFiles": [
+          "Q06_03_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_03_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_03_3",
+        "label_header": "",
+        "label": "問題6-3-3",
+        "sourceFiles": [
+          "Q06_03_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_03_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_03_4",
+        "label_header": "",
+        "label": "問題6-3-4",
+        "sourceFiles": [
+          "Q06_03_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_03_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_03_5",
+        "label_header": "",
+        "label": "問題6-3-5",
+        "sourceFiles": [
+          "Q06_03_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_03_5.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q06_03_6",
+        "label_header": "",
+        "label": "問題6-3-6",
+        "sourceFiles": [
+          "Q06_03_6.sql"
+        ],
+        "setupFile": "pre_ssql2-Q06_03_6.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap07",
+    "label": "第7章 副問い合わせ",
+    "children": [
+      {
+        "id": "ssql2-List07_01",
+        "label_header": "リスト7-1",
+        "label": "最も大きな出費の費目と金額を求める",
+        "sourceFiles": [
+          "List07_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_02",
+        "label_header": "リスト7-2",
+        "label": "1つのSQLで最大の出費に関する費目と金額を求める",
+        "sourceFiles": [
+          "List07_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_03",
+        "label_header": "リスト7-3",
+        "label": "SET句で副問い合わせを利用する",
+        "sourceFiles": [
+          "List07_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_04",
+        "label_header": "リスト7-4",
+        "label": "選択リストで副問い合わせを利用する",
+        "sourceFiles": [
+          "List07_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_05",
+        "label_header": "リスト7-5",
+        "label": "INを使った条件式の例",
+        "sourceFiles": [
+          "List07_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_06",
+        "label_header": "リスト7-6",
+        "label": "INで副問い合わせを利用する",
+        "sourceFiles": [
+          "List07_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_07",
+        "label_header": "リスト7-7",
+        "label": "ANYで副問い合わせを利用する",
+        "sourceFiles": [
+          "List07_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_08",
+        "label_header": "リスト7-8",
+        "label": "値リストにNULLのある条件式",
+        "sourceFiles": [
+          "List07_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_08.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_09",
+        "label_header": "リスト7-9",
+        "label": "副問い合わせからNULLを除外する（IS NOT NULL版）",
+        "sourceFiles": [
+          "List07_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_09.sql",
+        "isCompileError": false,
+        "isRuntimeError": false,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_10",
+        "label_header": "リスト7-10",
+        "label": "副問い合わせからNULLを除外する（COALESCE版）",
+        "sourceFiles": [
+          "List07_10.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_11",
+        "label_header": "リスト7-11",
+        "label": "FROM句で副問い合わせを利用する",
+        "sourceFiles": [
+          "List07_11.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_11.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List07_12",
+        "label_header": "リスト7-12",
+        "label": "INSERT文で副問い合わせを利用する",
+        "sourceFiles": [
+          "List07_12.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_12.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_01",
+        "label_header": "できるようになったこと",
+        "label": "食費の合計額を集計して集計テーブルを更新したい！",
+        "sourceFiles": [
+          "Can07_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_02",
+        "label_header": "できるようになったこと",
+        "label": "１月と12月の出金額の合計をそれぞれ知りたい",
+        "sourceFiles": [
+          "Can07_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_03",
+        "label_header": "できるようになったこと",
+        "label": "今月初めて発生した費目を知りたい",
+        "sourceFiles": [
+          "Can07_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_04",
+        "label_header": "できるようになったこと",
+        "label": "今年の給料で去年よりも高い額があれば知りたい…",
+        "sourceFiles": [
+          "Can07_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can07_05",
+        "label_header": "できるようになったこと",
+        "label": "今月の家計簿データをアーカイブしたい！",
+        "sourceFiles": [
+          "Can07_05.sql"
+        ],
+        "setupFile": "pre_ssql2-Can07_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q07_02_1",
+        "label_header": "",
+        "label": "問題7-2-1",
+        "sourceFiles": [
+          "Q07_02_1.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_02_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q07_02_2",
+        "label_header": "",
+        "label": "問題7-2-2",
+        "sourceFiles": [
+          "Q07_02_2.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_02_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q07_02_3",
+        "label_header": "",
+        "label": "問題7-2-3",
+        "sourceFiles": [
+          "Q07_02_3.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_02_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q07_03_1",
+        "label_header": "",
+        "label": "問題7-3-1",
+        "sourceFiles": [
+          "Q07_03_1.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_03_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q07_03_2",
+        "label_header": "",
+        "label": "問題7-3-2",
+        "sourceFiles": [
+          "Q07_03_2.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_03_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q07_03_3",
+        "label_header": "",
+        "label": "問題7-3-3",
+        "sourceFiles": [
+          "Q07_03_3.sql"
+        ],
+        "setupFile": "pre_ssql2-List07_03_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap08",
+    "label": "第8章 複数テーブルの結合",
+    "children": [
+      {
+        "id": "ssql2-List08_01",
+        "label_header": "リスト8-1",
+        "label": "古い家計簿テーブル(テーブル8-1)の場合",
+        "sourceFiles": [
+          "List08_01.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_02",
+        "label_header": "リスト8-2",
+        "label": "新しい家計簿テーブル(テーブル8-2 、テーブル8-3)の場合",
+        "sourceFiles": [
+          "List08_02.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_03",
+        "label_header": "リスト8-3",
+        "label": "矛盾した状態を生むテーブル更新",
+        "sourceFiles": [
+          "List08_03.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_04",
+        "label_header": "リスト8-4",
+        "label": "図8-3の結合を実現するためのSELECT文",
+        "sourceFiles": [
+          "List08_04.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_05",
+        "label_header": "リスト8-5",
+        "label": "結合の際にDBMSが内部で繰り返し実行している処理",
+        "sourceFiles": [
+          "List08_05.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_06",
+        "label_header": "リスト8-6",
+        "label": "２種類のメモを両方出力するSQL文",
+        "sourceFiles": [
+          "List08_06.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_07",
+        "label_header": "リスト8-7",
+        "label": "別名を使ったSQL文",
+        "sourceFiles": [
+          "List08_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_08",
+        "label_header": "リスト8-8",
+        "label": "3つのテーブルを結合するSQL文",
+        "sourceFiles": [
+          "List08_08.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_08.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_09",
+        "label_header": "リスト8-9",
+        "label": "副問い合わせの結果と結合するSQL文",
+        "sourceFiles": [
+          "List08_09.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_09.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List08_10",
+        "label_header": "リスト8-10",
+        "label": "自分自身と結合するSQL文",
+        "sourceFiles": [
+          "List08_10.sql"
+        ],
+        "setupFile": "pre_ssql2-List08_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can08_01",
+        "label_header": "できるようになったこと",
+        "label": "家計簿テーブルと費目テーブルを結合して、費目を日本語で表示したい！",
+        "sourceFiles": [
+          "Can08_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can08_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can08_02",
+        "label_header": "できるようになったこと",
+        "label": "家計簿テーブルの費目IDが定義されていない行も結果表に出力されるように結合したい",
+        "sourceFiles": [
+          "Can08_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can08_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can08_03",
+        "label_header": "できるようになったこと",
+        "label": "「給料」という名前の費目に関する、家計簿テーブルの行を見たい",
+        "sourceFiles": [
+          "Can08_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can08_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_01_1",
+        "label_header": "",
+        "label": "問題8-1-1",
+        "sourceFiles": [
+          "Q08_01_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_01_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_01_2",
+        "label_header": "",
+        "label": "問題8-1-2",
+        "sourceFiles": [
+          "Q08_01_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_01_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_01_3",
+        "label_header": "",
+        "label": "問題8-1-3",
+        "sourceFiles": [
+          "Q08_01_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_01_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_01_4",
+        "label_header": "",
+        "label": "問題8-1-4",
+        "sourceFiles": [
+          "Q08_01_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_01_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_02_1",
+        "label_header": "",
+        "label": "問題8-2-1",
+        "sourceFiles": [
+          "Q08_02_1.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_02_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_02_2",
+        "label_header": "",
+        "label": "問題8-2-2",
+        "sourceFiles": [
+          "Q08_02_2.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_02_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_02_3",
+        "label_header": "",
+        "label": "問題8-2-3",
+        "sourceFiles": [
+          "Q08_02_3.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_02_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_02_4",
+        "label_header": "",
+        "label": "問題8-2-4",
+        "sourceFiles": [
+          "Q08_02_4.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_02_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q08_02_5",
+        "label_header": "",
+        "label": "問題8-2-5",
+        "sourceFiles": [
+          "Q08_02_5.sql"
+        ],
+        "setupFile": "pre_ssql2-Q08_02_5.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap09",
+    "label": "第9章 トランザクション",
+    "children": [
+      {
+        "id": "ssql2-List09_01",
+        "label_header": "リスト9-1",
+        "label": "1月のデータをアーカイブテーブルに移動する",
+        "sourceFiles": [
+          "List09_01.sql"
+        ],
+        "setupFile": "List09_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List09_02",
+        "label_header": "リスト9-2",
+        "label": "SERIALIZABLE分離レベルを選択する",
+        "sourceFiles": [
+          "List09_02.sql"
+        ],
+        "setupFile": "List09_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List09_03",
+        "label_header": "リスト9-3",
+        "label": "2月以降の行をロックして集計する",
+        "sourceFiles": [
+          "List09_03.sql"
+        ],
+        "setupFile": "List09_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List09_04",
+        "label_header": "リスト9-4",
+        "label": "家計簿テーブルをロックして集計を開始する",
+        "sourceFiles": [
+          "List09_04.sql"
+        ],
+        "setupFile": "List09_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can09_01",
+        "label_header": "できるようになったこと",
+        "label": "家賃62,000円を振り込むと同時に、420円の手数料も支払ったことを記録したい",
+        "sourceFiles": [
+          "Can09_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can09_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can09_02",
+        "label_header": "できるようになったこと",
+        "label": "3月20日のデータを削除したけど、やっぱりなかったことにしたい",
+        "sourceFiles": [
+          "Can09_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can09_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can09_03",
+        "label_header": "できるようになったこと",
+        "label": "処理中にほかの人によって家計簿テーブルの内容が変化しないようにしながら、各種統計を記録したい",
+        "sourceFiles": [
+          "Can09_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can09_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q09_02_0",
+        "label_header": "",
+        "label": "問題9-2-1",
+        "sourceFiles": [
+          "Q09_02_1.sql"
+        ],
+        "setupFile": "Q09_02_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q09_02_2",
+        "label_header": "",
+        "label": "問題9-2-2",
+        "sourceFiles": [
+          "Q09_02_2.sql"
+        ],
+        "setupFile": "Q09_02_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q09_03",
+        "label_header": "",
+        "label": "問題9-3",
+        "sourceFiles": [
+          "Q09_03.sql"
+        ],
+        "setupFile": "Q09_02_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap10",
+    "label": "第10章 テーブルの作成",
+    "children": [
+      {
+        "id": "ssql2-List10_01",
+        "label_header": "リスト10-1",
+        "label": "家計簿テーブルを作成する",
+        "sourceFiles": [
+          "List10_01.sql"
+        ],
+        "setupFile": "List10_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_02",
+        "label_header": "リスト10-2",
+        "label": "家計簿テーブルに対する行の追加",
+        "sourceFiles": [
+          "List10_02.sql"
+        ],
+        "setupFile": "List10_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_03",
+        "label_header": "リスト10-3",
+        "label": "家計簿テーブルを作成する（デフォルト値を活用）",
+        "sourceFiles": [
+          "List10_03.sql"
+        ],
+        "setupFile": "List10_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_04",
+        "label_header": "リスト10-4",
+        "label": "列の追加と削除",
+        "sourceFiles": [
+          "List10_04.sql"
+        ],
+        "setupFile": "List10_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_05",
+        "label_header": "リスト10-5",
+        "label": "基本的な３つの制約を活用",
+        "sourceFiles": [
+          "List10_05.sql"
+        ],
+        "setupFile": "List10_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_06",
+        "label_header": "リスト10-6",
+        "label": "デフォルト値が設定されていれば、エラーにならない",
+        "sourceFiles": [
+          "List10_06.sql"
+        ],
+        "setupFile": "List10_06.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_07",
+        "label_header": "リスト10-7",
+        "label": "主キー制約の指定（1）",
+        "sourceFiles": [
+          "List10_07.sql"
+        ],
+        "setupFile": "List10_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_08",
+        "label_header": "リスト10-8",
+        "label": "主キー制約の指定（2）",
+        "sourceFiles": [
+          "List10_08.sql"
+        ],
+        "setupFile": "List10_08.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_09",
+        "label_header": "リスト10-9",
+        "label": "参照整合性制約を崩す例",
+        "sourceFiles": [
+          "List10_09.sql"
+        ],
+        "setupFile": "List10_09.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List10_10",
+        "label_header": "リスト10-10",
+        "label": "外部キー制約の指定",
+        "sourceFiles": [
+          "List10_10.sql"
+        ],
+        "setupFile": "List10_10.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can10_01",
+        "label_header": "できるようになったこと",
+        "label": "「ID」列を主キーとする費目テーブルを作りたい",
+        "sourceFiles": [
+          "Can10_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can10_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can10_02",
+        "label_header": "できるようになったこと",
+        "label": "適切な制約を設定した家計簿テーブルを作りたい",
+        "sourceFiles": [
+          "Can10_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can10_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can10_03",
+        "label_header": "できるようになったこと",
+        "label": "費目テーブルに「備考」列を追加したい",
+        "sourceFiles": [
+          "Can10_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can10_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can10_04",
+        "label_header": "できるようになったこと",
+        "label": "家計簿テーブルを削除したい",
+        "sourceFiles": [
+          "Can10_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can10_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q10_02_0",
+        "label_header": "",
+        "label": "問題10-2-0",
+        "sourceFiles": [
+          "Q10_2_0.sql"
+        ],
+        "setupFile": "Q10_2_0.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q10_02_1",
+        "label_header": "",
+        "label": "問題10-2-1",
+        "sourceFiles": [
+          "Q10_2_1.sql"
+        ],
+        "setupFile": "Q10_2_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q10_03",
+        "label_header": "",
+        "label": "問題10-3",
+        "sourceFiles": [
+          "Q10_3.sql"
+        ],
+        "setupFile": "Q10_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q10_05",
+        "label_header": "",
+        "label": "問題10-5",
+        "sourceFiles": [
+          "Q10_5.sql"
+        ],
+        "setupFile": "Q10_5.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap11",
+    "label": "第11章 さまざまな支援機能",
+    "children": [
+      {
+        "id": "ssql2-List11_01",
+        "label_header": "リスト11-1",
+        "label": "家計簿テーブルにインデックスを2つ作る",
+        "sourceFiles": [
+          "List11_01.sql"
+        ],
+        "setupFile": "List11_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_02",
+        "label_header": "リスト11-2",
+        "label": "インデックスのある列をWHERE句に指定する（完全一致検索）",
+        "sourceFiles": [
+          "List11_02.sql"
+        ],
+        "setupFile": "List11_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_03",
+        "label_header": "リスト11-3",
+        "label": "インデックスのある列をWHERE句に指定する（前方一致）",
+        "sourceFiles": [
+          "List11_03.sql"
+        ],
+        "setupFile": "List11_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_04",
+        "label_header": "リスト11-4",
+        "label": "インデックスのある列をORDER BY句に指定する",
+        "sourceFiles": [
+          "List11_04.sql"
+        ],
+        "setupFile": "List11_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_05",
+        "label_header": "リスト11-5",
+        "label": "インデックスのある列をJOINの結合条件に指定する",
+        "sourceFiles": [
+          "List11_05.sql"
+        ],
+        "setupFile": "List11_05.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_06_1",
+        "label_header": "リスト11-6-1",
+        "label": "4月の家計簿に関するさまざまなSQL文の実行",
+        "sourceFiles": [
+          "List11_06_1.sql"
+        ],
+        "setupFile": "List11_06_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_06_2",
+        "label_header": "リスト11-6-2",
+        "label": "4月の家計簿に関するさまざまなSQL文の実行",
+        "sourceFiles": [
+          "List11_06_2.sql"
+        ],
+        "setupFile": "List11_06_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_07",
+        "label_header": "リスト11-7",
+        "label": "4月に関する家計簿データのみを持つビューを定義する",
+        "sourceFiles": [
+          "List11_07.sql"
+        ],
+        "setupFile": "List11_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_08_1",
+        "label_header": "リスト11-8-1",
+        "label": "家計簿4月ビューを使ったSQL文の実行",
+        "sourceFiles": [
+          "List11_08_1.sql"
+        ],
+        "setupFile": "List11_08_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_08_2",
+        "label_header": "リスト11-8-2",
+        "label": "家計簿4月ビューを使ったSQL文の実行",
+        "sourceFiles": [
+          "List11_08_2.sql"
+        ],
+        "setupFile": "List11_08_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_09_1",
+        "label_header": "リスト11-9-1",
+        "label": "各DBMSにおける連番の指定",
+        "sourceFiles": [
+          "List11_09_1.sql"
+        ],
+        "setupFile": "List11_09_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_09_2",
+        "label_header": "リスト11-9-2",
+        "label": "各DBMSにおける連番の指定",
+        "sourceFiles": [
+          "List11_09_2.sql"
+        ],
+        "setupFile": "List11_09_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_09_3",
+        "label_header": "リスト11-9-3",
+        "label": "各DBMSにおける連番の指定",
+        "sourceFiles": [
+          "List11_09_3.sql"
+        ],"setupFile": "List11_09_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_09_4",
+        "label_header": "リスト11-9-4",
+        "label": "各DBMSにおける連番の指定",
+        "sourceFiles": [
+          "List11_09_4.sql"
+        ],
+        "setupFile": "List11_09_4.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_10_1",
+        "label_header": "リスト11-10-1",
+        "label": "Oracle DBにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_10_1.sql"
+        ],
+        "setupFile": "List11_10_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_10_2",
+        "label_header": "リスト11-10-2",
+        "label": "Oracle DBにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_10_2.sql"
+        ],
+        "setupFile": "List11_10_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_10_2-pre",
+        "label_header": "リスト11-10-2-pre",
+        "label": "Oracle DBにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_10_2_pre.sql"
+        ],
+        "setupFile": "List11_10_2_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_10_3",
+        "label_header": "リスト11-10-3",
+        "label": "Oracle DBにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_10_3.sql"
+        ],
+        "setupFile": "List11_10_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_11_1",
+        "label_header": "リスト11-11-1",
+        "label": "Db2におけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_11_1.sql"
+        ],
+        "setupFile": "List11_11_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_11_2",
+        "label_header": "リスト11-11-2",
+        "label": "Db2におけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_11_2.sql"
+        ],
+        "setupFile": "List11_11_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_11_2_pre",
+        "label_header": "リスト11-11-2-pre",
+        "label": "Db2におけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_11_2_pre.sql"
+        ],
+        "setupFile": "List11_11_2_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_11_3",
+        "label_header": "リスト11-11-3",
+        "label": "Db2におけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_11_3.sql"
+        ],
+        "setupFile": "List11_11_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_11_3_pre",
+        "label_header": "リスト11-11-3-pre",
+        "label": "Db2におけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_11_3_pre.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_12_1",
+        "label_header": "リスト11-12-1",
+        "label": "PostgreSQLにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_12_1.sql"
+        ],
+        "setupFile": "List11_12_1.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_12_2",
+        "label_header": "リスト11-12-2",
+        "label": "PostgreSQLにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_12_2.sql"
+        ],
+        "setupFile": "List11_12_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_12-2_pre",
+        "label_header": "リスト11-12-2-pre",
+        "label": "PostgreSQLにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_12_2_pre.sql"
+        ],
+        "setupFile": "List11_12_2_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_12_3",
+        "label_header": "リスト11-12-3",
+        "label": "PostgreSQLにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_12_3.sql"
+        ],
+        "setupFile": "List11_12_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_12-3_pre",
+        "label_header": "リスト11-12-3-pre",
+        "label": "PostgreSQLにおけるシーケンスの作成と取得",
+        "sourceFiles": [
+          "List11_12_3_pre.sql"
+        ],
+        "setupFile": "List11_12_3_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_13",
+        "label_header": "リスト11-13",
+        "label": "PostgreSQLにおける費目行の追加",
+        "sourceFiles": [
+          "List11_13.sql"
+        ],
+        "setupFile": "List11_13.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List11_13_pre",
+        "label_header": "リスト11-13-pre",
+        "label": "PostgreSQLにおける費目行の追加",
+        "sourceFiles": [
+          "List11_13_pre.sql"
+        ],
+        "setupFile": "List11_13_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Can11_01",
+        "label_header": "できるようになったこと",
+        "label": "日付での並び替えや費目IDによる結合を行う家計簿テーブルの検索を高速に行いたい",
+        "sourceFiles": [
+          "Can11_01.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can11_02",
+        "label_header": "できるようになったこと",
+        "label": "費目テーブルと結合済みの家計簿をビューを利用して手軽に使えるようにしたい",
+        "sourceFiles": [
+          "Can11_02.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can11_03",
+        "label_header": "できるようになったこと",
+        "label": "費目IDに連番を振るためのシーケンスを準備したい(Oracle DBを想定)",
+        "sourceFiles": [
+          "Can11_03.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_03.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },{
+        "id": "ssql2-Can11_04",
+        "label_header": "できるようになったこと",
+        "label": "シーケンスを使って、費目テーブルに「接待交際費」を追加したい(Oracle DBを想定)",
+        "sourceFiles": [
+          "Can11_04.sql"
+        ],
+        "setupFile": "pre_ssql2-Can11_04.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q11_02_0",
+        "label_header": "",
+        "label": "問題11-2-0",
+        "sourceFiles": [
+          "Q11_02_0.sql"
+        ],
+        "setupFile": "Q11_02_0.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q11_02-2",
+        "label_header": "",
+        "label": "問題11-2-2",
+        "sourceFiles": [
+          "Q11_02_2.sql"
+        ],
+        "setupFile": "Q11_02_2.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q11_02_3",
+        "label_header": "",
+        "label": "問題11-2-3",
+        "sourceFiles": [
+          "Q11_02_3.sql"
+        ],
+        "setupFile": "Q11_02_3.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q11_02-3_pre",
+        "label_header": "",
+        "label": "問題11-2-3-pre",
+        "sourceFiles": [
+          "Q11_02_3_pre.sql"
+        ],
+        "setupFile": "Q11_02_3_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chap12",
+    "label": "第12章 テーブルの設計",
+    "children": [
+      {
+        "id": "ssql2-List12_01",
+        "label_header": "リスト12-1",
+        "label": "利用者を追加するDML（家計管理DB操作マニュアルより）",
+        "sourceFiles": [
+          "List12-01.sql"
+        ],
+        "setupFile": "List12-01.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-List12_02",
+        "label_header": "リスト12-2",
+        "label": "集計を表示するDML（家計管理DB操作マニュアルより）",
+        "sourceFiles": [
+          "List12-02.sql"
+        ],
+        "setupFile": "List12-02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-Q12_02",
+        "label_header": "",
+        "label": "問題12-2",
+        "sourceFiles": [
+          "Q12_02.sql"
+        ],
+        "setupFile": "Q12_02.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chapA",
+    "label": "練習問題A 銀行口座データベース",
+    "children": [
+      {
+        "id": "ssql2-QA_001",
+        "label_header": "",
+        "label": "QA-1",
+        "sourceFiles": [
+          "QA_001.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_002",
+        "label_header": "",
+        "label": "QA-2",
+        "sourceFiles": [
+          "QA_002.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_003",
+        "label_header": "",
+        "label": "QA-3",
+        "sourceFiles": [
+          "QA_003.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_004",
+        "label_header": "",
+        "label": "QA-4",
+        "sourceFiles": [
+          "QA_004.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_005",
+        "label_header": "",
+        "label": "QA-5",
+        "sourceFiles": [
+          "QA_005.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_006",
+        "label_header": "",
+        "label": "QA-6",
+        "sourceFiles": [
+          "QA_006.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_007",
+        "label_header": "",
+        "label": "QA-7",
+        "sourceFiles": [
+          "QA_007.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_008",
+        "label_header": "",
+        "label": "QA-8",
+        "sourceFiles": [
+          "QA_008.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_009",
+        "label_header": "",
+        "label": "QA-9",
+        "sourceFiles": [
+          "QA_009.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_010",
+        "label_header": "",
+        "label": "QA-10",
+        "sourceFiles": [
+          "QA_010.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_011",
+        "label_header": "",
+        "label": "QA-11",
+        "sourceFiles": [
+          "QA_011.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_012",
+        "label_header": "",
+        "label": "QA-12",
+        "sourceFiles": [
+          "QA_012.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_013",
+        "label_header": "",
+        "label": "QA-13",
+        "sourceFiles": [
+          "QA_013.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_014",
+        "label_header": "",
+        "label": "QA-14",
+        "sourceFiles": [
+          "QA_014.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_015",
+        "label_header": "",
+        "label": "QA-15",
+        "sourceFiles": [
+          "QA_015.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_016",
+        "label_header": "",
+        "label": "QA-16",
+        "sourceFiles": [
+          "QA_016.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_017",
+        "label_header": "",
+        "label": "QA-17",
+        "sourceFiles": [
+          "QA_017.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_018",
+        "label_header": "",
+        "label": "QA-18",
+        "sourceFiles": [
+          "QA_018.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_019",
+        "label_header": "",
+        "label": "QA-19",
+        "sourceFiles": [
+          "QA_019.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_020",
+        "label_header": "",
+        "label": "QA-20",
+        "sourceFiles": [
+          "QA_020.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_021",
+        "label_header": "",
+        "label": "QA-21",
+        "sourceFiles": [
+          "QA_021.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_022",
+        "label_header": "",
+        "label": "QA-22",
+        "sourceFiles": [
+          "QA_022.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_023",
+        "label_header": "",
+        "label": "QA-23",
+        "sourceFiles": [
+          "QA_023.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_024",
+        "label_header": "",
+        "label": "QA-24",
+        "sourceFiles": [
+          "QA_024.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_025",
+        "label_header": "",
+        "label": "QA-25",
+        "sourceFiles": [
+          "QA_025.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_026",
+        "label_header": "",
+        "label": "QA-26",
+        "sourceFiles": [
+          "QA_026.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_027",
+        "label_header": "",
+        "label": "QA-27",
+        "sourceFiles": [
+          "QA_027.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_028",
+        "label_header": "",
+        "label": "QA-28",
+        "sourceFiles": [
+          "QA_028.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_029",
+        "label_header": "",
+        "label": "QA-29",
+        "sourceFiles": [
+          "QA_029.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_030",
+        "label_header": "",
+        "label": "QA-30",
+        "sourceFiles": [
+          "QA_030.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_031",
+        "label_header": "",
+        "label": "QA-31",
+        "sourceFiles": [
+          "QA_031.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_032",
+        "label_header": "",
+        "label": "QA-32",
+        "sourceFiles": [
+          "QA_032.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_033",
+        "label_header": "",
+        "label": "QA-33",
+        "sourceFiles": [
+          "QA_033.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_034",
+        "label_header": "",
+        "label": "QA-34",
+        "sourceFiles": [
+          "QA_034.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_035",
+        "label_header": "",
+        "label": "QA-35",
+        "sourceFiles": [
+          "QA_035.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_036_pre",
+        "label_header": "",
+        "label": "QA-36-pre",
+        "sourceFiles": [
+          "QA_036_pre.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_036_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_036",
+        "label_header": "",
+        "label": "QA-36",
+        "sourceFiles": [
+          "QA_036_pre.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_036_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_037",
+        "label_header": "",
+        "label": "QA-37",
+        "sourceFiles": [
+          "QA_037.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_038",
+        "label_header": "",
+        "label": "QA-38",
+        "sourceFiles": [
+          "QA_038.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_039",
+        "label_header": "",
+        "label": "QA-39",
+        "sourceFiles": [
+          "QA_039.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_040",
+        "label_header": "",
+        "label": "QA-40",
+        "sourceFiles": [
+          "QA_040.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_041",
+        "label_header": "",
+        "label": "QA-41",
+        "sourceFiles": [
+          "QA_041.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_042",
+        "label_header": "",
+        "label": "QA-42",
+        "sourceFiles": [
+          "QA_042.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_043",
+        "label_header": "",
+        "label": "QA-43",
+        "sourceFiles": [
+          "QA_043.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_044",
+        "label_header": "",
+        "label": "QA-44",
+        "sourceFiles": [
+          "QA_044.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_045",
+        "label_header": "",
+        "label": "QA-45",
+        "sourceFiles": [
+          "QA_045.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_046",
+        "label_header": "",
+        "label": "QA-46",
+        "sourceFiles": [
+          "QA_046.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_047",
+        "label_header": "",
+        "label": "QA-47",
+        "sourceFiles": [
+          "QA_047.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_048",
+        "label_header": "",
+        "label": "QA-48",
+        "sourceFiles": [
+          "QA_048.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_049",
+        "label_header": "",
+        "label": "QA-49",
+        "sourceFiles": [
+          "QA_049.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_050",
+        "label_header": "",
+        "label": "QA-50",
+        "sourceFiles": [
+          "QA_050.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_051",
+        "label_header": "",
+        "label": "QA-51",
+        "sourceFiles": [
+          "QA_051.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_052",
+        "label_header": "",
+        "label": "QA-52",
+        "sourceFiles": [
+          "QA_052.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_053",
+        "label_header": "",
+        "label": "QA-53",
+        "sourceFiles": [
+          "QA_053.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_054",
+        "label_header": "",
+        "label": "QA-54",
+        "sourceFiles": [
+          "QA_054.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_055",
+        "label_header": "",
+        "label": "QA-55",
+        "sourceFiles": [
+          "QA_055.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_056",
+        "label_header": "",
+        "label": "QA-56",
+        "sourceFiles": [
+          "QA_056.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_057",
+        "label_header": "",
+        "label": "QA-57",
+        "sourceFiles": [
+          "QA_057.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_058",
+        "label_header": "",
+        "label": "QA-58",
+        "sourceFiles": [
+          "QA_058.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_059",
+        "label_header": "",
+        "label": "QA-59",
+        "sourceFiles": [
+          "QA_059.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_060",
+        "label_header": "",
+        "label": "QA-60",
+        "sourceFiles": [
+          "QA_060.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_061",
+        "label_header": "",
+        "label": "QA-61",
+        "sourceFiles": [
+          "QA_061.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_062",
+        "label_header": "",
+        "label": "QA-62",
+        "sourceFiles": [
+          "QA_062.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_063",
+        "label_header": "",
+        "label": "QA-63",
+        "sourceFiles": [
+          "QA_063.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_064",
+        "label_header": "",
+        "label": "QA-64",
+        "sourceFiles": [
+          "QA_064.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_065",
+        "label_header": "",
+        "label": "QA-65",
+        "sourceFiles": [
+          "QA_065.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_066",
+        "label_header": "",
+        "label": "QA-66",
+        "sourceFiles": [
+          "QA_066.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_067",
+        "label_header": "",
+        "label": "QA-67",
+        "sourceFiles": [
+          "QA_067.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_068",
+        "label_header": "",
+        "label": "QA-68",
+        "sourceFiles": [
+          "QA_068.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_069",
+        "label_header": "",
+        "label": "QA-69",
+        "sourceFiles": [
+          "QA_069.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_070",
+        "label_header": "",
+        "label": "QA-70",
+        "sourceFiles": [
+          "QA_070.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_071",
+        "label_header": "",
+        "label": "QA-71",
+        "sourceFiles": [
+          "QA_071.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_072",
+        "label_header": "",
+        "label": "QA-72",
+        "sourceFiles": [
+          "QA_072.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_073",
+        "label_header": "",
+        "label": "QA-73",
+        "sourceFiles": [
+          "QA_073.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_074",
+        "label_header": "",
+        "label": "QA-74",
+        "sourceFiles": [
+          "QA_074.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_075_pre",
+        "label_header": "",
+        "label": "QA-75-pre",
+        "sourceFiles": [
+          "QA_075_pre.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_075_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QA_075",
+        "label_header": "",
+        "label": "QA-75",
+        "sourceFiles": [
+          "QA_075.sql"
+        ],
+        "setupFile": "pre_ssql2-QA_075.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chapB",
+    "label": "練習問題B 商店データベース",
+    "children": [
+      {
+        "id": "ssql2-QB_001",
+        "label_header": "",
+        "label": "QB-1",
+        "sourceFiles": [
+          "QB_001.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_002",
+        "label_header": "",
+        "label": "QB-2",
+        "sourceFiles": [
+          "QB_002.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_003",
+        "label_header": "",
+        "label": "QB-3",
+        "sourceFiles": [
+          "QB_003.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_004",
+        "label_header": "",
+        "label": "QB-4",
+        "sourceFiles": [
+          "QB_004.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_005",
+        "label_header": "",
+        "label": "QB-5",
+        "sourceFiles": [
+          "QB_005.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_006",
+        "label_header": "",
+        "label": "QB-6",
+        "sourceFiles": [
+          "QB_006.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_007",
+        "label_header": "",
+        "label": "QB-7",
+        "sourceFiles": [
+          "QB_007.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_008",
+        "label_header": "",
+        "label": "QB-8",
+        "sourceFiles": [
+          "QB_008.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_009",
+        "label_header": "",
+        "label": "QB-9",
+        "sourceFiles": [
+          "QB_009.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_010",
+        "label_header": "",
+        "label": "QB-10",
+        "sourceFiles": [
+          "QB_010.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_011",
+        "label_header": "",
+        "label": "QB-11",
+        "sourceFiles": [
+          "QB_011.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_012",
+        "label_header": "",
+        "label": "QB-12",
+        "sourceFiles": [
+          "QB_012.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_013",
+        "label_header": "",
+        "label": "QB-13",
+        "sourceFiles": [
+          "QB_013.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_014",
+        "label_header": "",
+        "label": "QB-14",
+        "sourceFiles": [
+          "QB_014.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_015",
+        "label_header": "",
+        "label": "QB-15",
+        "sourceFiles": [
+          "QB_015.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_015",
+        "label_header": "",
+        "label": "QB-15",
+        "sourceFiles": [
+          "QB_015.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_016",
+        "label_header": "",
+        "label": "QB-16",
+        "sourceFiles": [
+          "QB_016.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_017",
+        "label_header": "",
+        "label": "QB-17",
+        "sourceFiles": [
+          "QB_017.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_018",
+        "label_header": "",
+        "label": "QB-18",
+        "sourceFiles": [
+          "QB_018.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_019",
+        "label_header": "",
+        "label": "QB-19",
+        "sourceFiles": [
+          "QB_019.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_020",
+        "label_header": "",
+        "label": "QB-20",
+        "sourceFiles": [
+          "QB_020.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_021",
+        "label_header": "",
+        "label": "QB-21",
+        "sourceFiles": [
+          "QB_021.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_022",
+        "label_header": "",
+        "label": "QB-22",
+        "sourceFiles": [
+          "QB_022.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_023",
+        "label_header": "",
+        "label": "QB-23",
+        "sourceFiles": [
+          "QB_023.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_024",
+        "label_header": "",
+        "label": "QB-24",
+        "sourceFiles": [
+          "QB_024.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_025",
+        "label_header": "",
+        "label": "QB-25",
+        "sourceFiles": [
+          "QB_025.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_026",
+        "label_header": "",
+        "label": "QB-26",
+        "sourceFiles": [
+          "QB_026.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_027",
+        "label_header": "",
+        "label": "QB-27",
+        "sourceFiles": [
+          "QB_027.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_028",
+        "label_header": "",
+        "label": "QB-28",
+        "sourceFiles": [
+          "QB_028.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_029",
+        "label_header": "",
+        "label": "QB-29",
+        "sourceFiles": [
+          "QB_029.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_030",
+        "label_header": "",
+        "label": "QB-30",
+        "sourceFiles": [
+          "QB_030.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_031",
+        "label_header": "",
+        "label": "QB-31",
+        "sourceFiles": [
+          "QB_031.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_032",
+        "label_header": "",
+        "label": "QB-32",
+        "sourceFiles": [
+          "QB_032.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_033",
+        "label_header": "",
+        "label": "QB-33",
+        "sourceFiles": [
+          "QB_033.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_034",
+        "label_header": "",
+        "label": "QB-34",
+        "sourceFiles": [
+          "QB_034.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_035",
+        "label_header": "",
+        "label": "QB-35",
+        "sourceFiles": [
+          "QB_035.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_036",
+        "label_header": "",
+        "label": "QB-36",
+        "sourceFiles": [
+          "QB_036.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_037",
+        "label_header": "",
+        "label": "QB-37",
+        "sourceFiles": [
+          "QB_037.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_038",
+        "label_header": "",
+        "label": "QB-38",
+        "sourceFiles": [
+          "QB_038.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_039",
+        "label_header": "",
+        "label": "QB-39",
+        "sourceFiles": [
+          "QB_039.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_040",
+        "label_header": "",
+        "label": "QB-40",
+        "sourceFiles": [
+          "QB_040.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_041",
+        "label_header": "",
+        "label": "QB-41",
+        "sourceFiles": [
+          "QB_041.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_042",
+        "label_header": "",
+        "label": "QB-42",
+        "sourceFiles": [
+          "QB_042.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_043",
+        "label_header": "",
+        "label": "QB-43",
+        "sourceFiles": [
+          "QB_043.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_044",
+        "label_header": "",
+        "label": "QB-44",
+        "sourceFiles": [
+          "QB_044.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_045",
+        "label_header": "",
+        "label": "QB-45",
+        "sourceFiles": [
+          "QB_045.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_046",
+        "label_header": "",
+        "label": "QB-46",
+        "sourceFiles": [
+          "QB_046.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_047",
+        "label_header": "",
+        "label": "QB-47",
+        "sourceFiles": [
+          "QB_047.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_048",
+        "label_header": "",
+        "label": "QB-48",
+        "sourceFiles": [
+          "QB_048.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_049",
+        "label_header": "",
+        "label": "QB-49",
+        "sourceFiles": [
+          "QB_049.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_050",
+        "label_header": "",
+        "label": "QB-50",
+        "sourceFiles": [
+          "QB_050.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_051",
+        "label_header": "",
+        "label": "QB-51",
+        "sourceFiles": [
+          "QB_051.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_052",
+        "label_header": "",
+        "label": "QB-52",
+        "sourceFiles": [
+          "QB_052.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_053",
+        "label_header": "",
+        "label": "QB-53",
+        "sourceFiles": [
+          "QB_053.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_054",
+        "label_header": "",
+        "label": "QB-54",
+        "sourceFiles": [
+          "QB_054.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_055",
+        "label_header": "",
+        "label": "QB-55",
+        "sourceFiles": [
+          "QB_055.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_056",
+        "label_header": "",
+        "label": "QB-56",
+        "sourceFiles": [
+          "QB_056.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_057",
+        "label_header": "",
+        "label": "QB-57",
+        "sourceFiles": [
+          "QB_057.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_058",
+        "label_header": "",
+        "label": "QB-58",
+        "sourceFiles": [
+          "QB_058.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_059",
+        "label_header": "",
+        "label": "QB-59",
+        "sourceFiles": [
+          "QB_059.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_060",
+        "label_header": "",
+        "label": "QB-60",
+        "sourceFiles": [
+          "QB_060.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_061",
+        "label_header": "",
+        "label": "QB-61",
+        "sourceFiles": [
+          "QB_061.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_062",
+        "label_header": "",
+        "label": "QB-62",
+        "sourceFiles": [
+          "QB_062.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_063",
+        "label_header": "",
+        "label": "QB-63",
+        "sourceFiles": [
+          "QB_063.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_064",
+        "label_header": "",
+        "label": "QB-64",
+        "sourceFiles": [
+          "QB_064.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_064.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_065",
+        "label_header": "",
+        "label": "QB-65",
+        "sourceFiles": [
+          "QB_065.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_065.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_066",
+        "label_header": "",
+        "label": "QB-66",
+        "sourceFiles": [
+          "QB_066.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_066.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_067",
+        "label_header": "",
+        "label": "QB-67",
+        "sourceFiles": [
+          "QB_067.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_067.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_068",
+        "label_header": "",
+        "label": "QB-68",
+        "sourceFiles": [
+          "QB_068.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_069",
+        "label_header": "",
+        "label": "QB-69",
+        "sourceFiles": [
+          "QB_069.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QB_070",
+        "label_header": "",
+        "label": "QB-70",
+        "sourceFiles": [
+          "QB_070.sql"
+        ],
+        "setupFile": "pre_ssql2-QB_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chapC",
+    "label": "練習問題C RPGデータベース",
+    "children": [
+      {
+        "id": "ssql2-QC_001_pre",
+        "label_header": "",
+        "label": "QC-1-pre",
+        "sourceFiles": [
+          "QC_001_pre.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_001_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_001",
+        "label_header": "",
+        "label": "QC-1",
+        "sourceFiles": [
+          "QC_001.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_001.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_002-pre",
+        "label_header": "",
+        "label": "QC-2-pre",
+        "sourceFiles": [
+          "QC_002_pre.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_002_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_002",
+        "label_header": "",
+        "label": "QC-2",
+        "sourceFiles": [
+          "QC_002.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_002.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_003",
+        "label_header": "",
+        "label": "QC-3",
+        "sourceFiles": [
+          "QC_003.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_004",
+        "label_header": "",
+        "label": "QC-4",
+        "sourceFiles": [
+          "QC_004.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_005_pre",
+        "label_header": "",
+        "label": "QC-5-pre",
+        "sourceFiles": [
+          "QC_005_pre.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_005_pre.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_005",
+        "label_header": "",
+        "label": "QC-5",
+        "sourceFiles": [
+          "QC_005.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_005.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_006",
+        "label_header": "",
+        "label": "QC-6",
+        "sourceFiles": [
+          "QC_006.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_007",
+        "label_header": "",
+        "label": "QC-7",
+        "sourceFiles": [
+          "QC_007.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_008",
+        "label_header": "",
+        "label": "QC-8",
+        "sourceFiles": [
+          "QC_008.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_009",
+        "label_header": "",
+        "label": "QC-9",
+        "sourceFiles": [
+          "QC_009.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_010",
+        "label_header": "",
+        "label": "QC-10",
+        "sourceFiles": [
+          "QC_010.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_011",
+        "label_header": "",
+        "label": "QC-11",
+        "sourceFiles": [
+          "QC_011.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_012",
+        "label_header": "",
+        "label": "QC-12",
+        "sourceFiles": [
+          "QC_012.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_013",
+        "label_header": "",
+        "label": "QC-13",
+        "sourceFiles": [
+          "QC_013.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_014",
+        "label_header": "",
+        "label": "QC-14",
+        "sourceFiles": [
+          "QC_014.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_015",
+        "label_header": "",
+        "label": "QC-15",
+        "sourceFiles": [
+          "QC_015.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_016",
+        "label_header": "",
+        "label": "QC-16",
+        "sourceFiles": [
+          "QC_016.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_017",
+        "label_header": "",
+        "label": "QC-17",
+        "sourceFiles": [
+          "QC_017.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_018",
+        "label_header": "",
+        "label": "QC-18",
+        "sourceFiles": [
+          "QC_018.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_019",
+        "label_header": "",
+        "label": "QC-19",
+        "sourceFiles": [
+          "QC_019.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_020",
+        "label_header": "",
+        "label": "QC-20",
+        "sourceFiles": [
+          "QC_020.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_021",
+        "label_header": "",
+        "label": "QC-21",
+        "sourceFiles": [
+          "QC_021.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_022",
+        "label_header": "",
+        "label": "QC-22",
+        "sourceFiles": [
+          "QC_022.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_023",
+        "label_header": "",
+        "label": "QC-23",
+        "sourceFiles": [
+          "QC_023.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_024",
+        "label_header": "",
+        "label": "QC-24",
+        "sourceFiles": [
+          "QC_024.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_025",
+        "label_header": "",
+        "label": "QC-25",
+        "sourceFiles": [
+          "QC_025.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_026",
+        "label_header": "",
+        "label": "QC-26",
+        "sourceFiles": [
+          "QC_026.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_027",
+        "label_header": "",
+        "label": "QC-27",
+        "sourceFiles": [
+          "QC_027.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_028",
+        "label_header": "",
+        "label": "QC-28",
+        "sourceFiles": [
+          "QC_028.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_029",
+        "label_header": "",
+        "label": "QC-29",
+        "sourceFiles": [
+          "QC_029.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_030",
+        "label_header": "",
+        "label": "QC-30",
+        "sourceFiles": [
+          "QC_030.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_031",
+        "label_header": "",
+        "label": "QC-31",
+        "sourceFiles": [
+          "QC_031.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_032",
+        "label_header": "",
+        "label": "QC-32",
+        "sourceFiles": [
+          "QC_032.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_033",
+        "label_header": "",
+        "label": "QC-33",
+        "sourceFiles": [
+          "QC_033.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_034",
+        "label_header": "",
+        "label": "QC-34",
+        "sourceFiles": [
+          "QC_034.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_035",
+        "label_header": "",
+        "label": "QC-35",
+        "sourceFiles": [
+          "QC_035.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_037",
+        "label_header": "",
+        "label": "QC-37",
+        "sourceFiles": [
+          "QC_037.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_038",
+        "label_header": "",
+        "label": "QC-38",
+        "sourceFiles": [
+          "QC_038.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_039",
+        "label_header": "",
+        "label": "QC-39",
+        "sourceFiles": [
+          "QC_039.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_040",
+        "label_header": "",
+        "label": "QC-40",
+        "sourceFiles": [
+          "QC_040.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_041",
+        "label_header": "",
+        "label": "QC-41",
+        "sourceFiles": [
+          "QC_041.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_042",
+        "label_header": "",
+        "label": "QC-42",
+        "sourceFiles": [
+          "QC_042.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_043",
+        "label_header": "",
+        "label": "QC-43",
+        "sourceFiles": [
+          "QC_043.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_044",
+        "label_header": "",
+        "label": "QC-44",
+        "sourceFiles": [
+          "QC_044.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_045",
+        "label_header": "",
+        "label": "QC-45",
+        "sourceFiles": [
+          "QC_045.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_046",
+        "label_header": "",
+        "label": "QC-46",
+        "sourceFiles": [
+          "QC_046.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_047",
+        "label_header": "",
+        "label": "QC-47",
+        "sourceFiles": [
+          "QC_047.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_048",
+        "label_header": "",
+        "label": "QC-48",
+        "sourceFiles": [
+          "QC_048.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_049",
+        "label_header": "",
+        "label": "QC-49",
+        "sourceFiles": [
+          "QC_049.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_050",
+        "label_header": "",
+        "label": "QC-50",
+        "sourceFiles": [
+          "QC_050.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_051",
+        "label_header": "",
+        "label": "QC-51",
+        "sourceFiles": [
+          "QC_051.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_052",
+        "label_header": "",
+        "label": "QC-52",
+        "sourceFiles": [
+          "QC_052.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_053",
+        "label_header": "",
+        "label": "QC-53",
+        "sourceFiles": [
+          "QC_053.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_054",
+        "label_header": "",
+        "label": "QC-54",
+        "sourceFiles": [
+          "QC_054.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_055",
+        "label_header": "",
+        "label": "QC-55",
+        "sourceFiles": [
+          "QC_055.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_056",
+        "label_header": "",
+        "label": "QC-56",
+        "sourceFiles": [
+          "QC_056.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_057",
+        "label_header": "",
+        "label": "QC-57",
+        "sourceFiles": [
+          "QC_057.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_058",
+        "label_header": "",
+        "label": "QC-58",
+        "sourceFiles": [
+          "QC_058.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_059",
+        "label_header": "",
+        "label": "QC-59",
+        "sourceFiles": [
+          "QC_059.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_060",
+        "label_header": "",
+        "label": "QC-60",
+        "sourceFiles": [
+          "QC_060.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_061",
+        "label_header": "",
+        "label": "QC-61",
+        "sourceFiles": [
+          "QC_061.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_062",
+        "label_header": "",
+        "label": "QC-62",
+        "sourceFiles": [
+          "QC_062.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_063",
+        "label_header": "",
+        "label": "QC-63",
+        "sourceFiles": [
+          "QC_063.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_064",
+        "label_header": "",
+        "label": "QC-64",
+        "sourceFiles": [
+          "QC_064.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_065",
+        "label_header": "",
+        "label": "QC-65",
+        "sourceFiles": [
+          "QC_065.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_066",
+        "label_header": "",
+        "label": "QC-66",
+        "sourceFiles": [
+          "QC_066.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_067",
+        "label_header": "",
+        "label": "QC-67",
+        "sourceFiles": [
+          "QC_067.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_068",
+        "label_header": "",
+        "label": "QC-68",
+        "sourceFiles": [
+          "QC_068.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_069",
+        "label_header": "",
+        "label": "QC-69",
+        "sourceFiles": [
+          "QC_069.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QC_070",
+        "label_header": "",
+        "label": "QC-70",
+        "sourceFiles": [
+          "QC_070.sql"
+        ],
+        "setupFile": "pre_ssql2-QC_base.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  },
+  {
+    "id": "chapD",
+    "label": "練習問題D ヘアサロンデータベース",
+    "children": [
+      {
+        "id": "ssql2-QD_1-5",
+        "label_header": "",
+        "label": "QD-1-5",
+        "sourceFiles": [
+          "QD__1-5.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-1",
+        "label_header": "",
+        "label": "QD-2-1",
+        "sourceFiles": [
+          "QD_2-1.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-1",
+        "label_header": "",
+        "label": "QD-2-2-1",
+        "sourceFiles": [
+          "QD_2-2_1.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-2",
+        "label_header": "",
+        "label": "QD-2-2-2",
+        "sourceFiles": [
+          "QD_2-2_2.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-3",
+        "label_header": "",
+        "label": "QD-2-2-3",
+        "sourceFiles": [
+          "QD_2-2_3.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-4",
+        "label_header": "",
+        "label": "QD-2-2-4",
+        "sourceFiles": [
+          "QD_2-2_4.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-5",
+        "label_header": "",
+        "label": "QD-2-2-5",
+        "sourceFiles": [
+          "QD_2-2_5.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-6-1",
+        "label_header": "",
+        "label": "QD-2-2-6-1",
+        "sourceFiles": [
+          "QD_2-2_6_1.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-6-2",
+        "label_header": "",
+        "label": "QD-2-2-6-2",
+        "sourceFiles": [
+          "QD_2-2_6_2.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-6-3",
+        "label_header": "",
+        "label": "QD-2-2-6-3",
+        "sourceFiles": [
+          "QD_2-2_6_3.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-7",
+        "label_header": "",
+        "label": "QD-2-2-7",
+        "sourceFiles": [
+          "QD_2-2_7.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-8",
+        "label_header": "",
+        "label": "QD-2-2-8",
+        "sourceFiles": [
+          "QD_2-2_8.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2-9",
+        "label_header": "",
+        "label": "QD-2-2-9",
+        "sourceFiles": [
+          "QD_2-2_9.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
+        "id": "ssql2-QD_2-2_10",
+        "label_header": "",
+        "label": "QD-2-2_10",
+        "sourceFiles": [
+          "QD_2-2_10.sql"
+        ],
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      }
+    ]
+  }
+]
