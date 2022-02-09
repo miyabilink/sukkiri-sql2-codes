@@ -10,7 +10,7 @@
         "sourceFiles": [
           "List01_01.sql"
         ],
-        "setupFile": "pre_ssql2-List01_base.sql",
+        "setupFile": "pre_ssql2-List01_01.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -22,7 +22,7 @@
         "sourceFiles": [
           "List01_02.sql"
         ],
-        "setupFile": "pre_ssql2-List01_base.sql",
+        "setupFile": "pre_ssql2-List01_02.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -34,7 +34,7 @@
         "sourceFiles": [
           "List01_03.sql"
         ],
-        "setupFile": "pre_ssql2-List01_base.sql",
+        "setupFile": "pre_ssql2-List01_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -46,7 +46,7 @@
         "sourceFiles": [
           "List01_04.sql"
         ],
-        "setupFile": "pre_ssql2-List01_base.sql",
+        "setupFile": "pre_ssql2-List01_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -58,7 +58,7 @@
         "sourceFiles": [
           "List01_05.sql"
         ],
-        "setupFile": "pre_ssql2-List01_base.sql",
+        "setupFile": "pre_ssql2-List01_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -82,7 +82,7 @@
         "sourceFiles": [
           "Q01_03_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q01_03_base.sql",
+        "setupFile": "pre_ssql2-Q01_03_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -94,7 +94,7 @@
         "sourceFiles": [
           "Q01_03_2.sql"
         ],
-        "setupFile": "pre_ssql2-Q01_03_base.sql",
+        "setupFile": "pre_ssql2-Q01_03_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -106,7 +106,7 @@
         "sourceFiles": [
           "Q01_03_3.sql"
         ],
-        "setupFile": "pre_ssql2-Q01_03_base.sql",
+        "setupFile": "pre_ssql2-Q01_03_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
