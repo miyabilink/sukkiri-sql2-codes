@@ -2848,7 +2848,7 @@
         "sourceFiles": [
           "List10_01.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix01.sql",
+        "setupFile": "List10_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2860,7 +2860,7 @@
         "sourceFiles": [
           "List10_02.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix02.sql",
+        "setupFile": "List10_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2872,7 +2872,7 @@
         "sourceFiles": [
           "List10_03.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix01.sql",
+        "setupFile": "List10_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2896,7 +2896,7 @@
         "sourceFiles": [
           "List10_05.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix01.sql",
+        "setupFile": "List10_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2920,7 +2920,7 @@
         "sourceFiles": [
           "List10_07.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix01.sql",
+        "setupFile": "List10_07.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2932,7 +2932,7 @@
         "sourceFiles": [
           "List10_08.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix01.sql",
+        "setupFile": "List10_08.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2944,7 +2944,7 @@
         "sourceFiles": [
           "List10_09.sql"
         ],
-        "setupFile": "pre_ssql2-List10_fix02.sql",
+        "setupFile": "List10_09.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
