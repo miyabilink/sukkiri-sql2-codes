@@ -2374,7 +2374,7 @@
         "sourceFiles": [
           "Q07_02_1.sql"
         ],
-        "setupFile": "pre_ssql2-List07_02_1.sql",
+        "setupFile": "pre_ssql2-Q07_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2386,7 +2386,7 @@
         "sourceFiles": [
           "Q07_02_2.sql"
         ],
-        "setupFile": "pre_ssql2-List07_02_2.sql",
+        "setupFile": "pre_ssql2-Q07_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2398,7 +2398,7 @@
         "sourceFiles": [
           "Q07_02_3.sql"
         ],
-        "setupFile": "pre_ssql2-List07_02_3.sql",
+        "setupFile": "pre_ssql2-Q07_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2410,7 +2410,7 @@
         "sourceFiles": [
           "Q07_03_1.sql"
         ],
-        "setupFile": "pre_ssql2-List07_03_1.sql",
+        "setupFile": "pre_ssql2-Q07_03_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2422,7 +2422,7 @@
         "sourceFiles": [
           "Q07_03_2.sql"
         ],
-        "setupFile": "pre_ssql2-List07_03_2.sql",
+        "setupFile": "pre_ssql2-Q07_03_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2434,7 +2434,7 @@
         "sourceFiles": [
           "Q07_03_3.sql"
         ],
-        "setupFile": "pre_ssql2-List07_03_3.sql",
+        "setupFile": "pre_ssql2-Q07_03_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2830,7 +2830,7 @@
         "sourceFiles": [
           "Q09_03.sql"
         ],
-        "setupFile": "pre_ssql2-Q09_02_3.sql",
+        "setupFile": "pre_ssql2-Q09_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3037,7 +3037,7 @@
         "sourceFiles": [
           "Q10_3.sql"
         ],
-        "setupFile": "pre_ssql2-Q10_3.sql",
+        "setupFile": "pre_ssql2-Q10_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3049,7 +3049,7 @@
         "sourceFiles": [
           "Q10_5.sql"
         ],
-        "setupFile": "pre_ssql2-Q10_5.sql",
+        "setupFile": "pre_ssql2-Q10_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3330,6 +3330,7 @@
         "sourceFiles": [
           "List11_11_3_pre.sql"
         ],
+        "setupFile": "pre_ssql2-List11_11_3_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3524,7 +3525,7 @@
         "sourceFiles": [
           "List12-01.sql"
         ],
-        "setupFile": "pre_ssql2-List12-01.sql",
+        "setupFile": "pre_ssql2-List12_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3536,7 +3537,7 @@
         "sourceFiles": [
           "List12-02.sql"
         ],
-        "setupFile": "pre_ssql2-List12-02.sql",
+        "setupFile": "pre_ssql2-List12_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
