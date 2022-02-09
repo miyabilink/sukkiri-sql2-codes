@@ -2746,7 +2746,7 @@
         "sourceFiles": [
           "List09_03.sql"
         ],
-        "setupFile": "pre_ssql2-List09_fix01.sql",
+        "setupFile": "pre_ssql2-List09_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2758,7 +2758,7 @@
         "sourceFiles": [
           "List09_04.sql"
         ],
-        "setupFile": "pre_ssql2-List09_fix01.sql",
+        "setupFile": "pre_ssql2-List09_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2806,7 +2806,7 @@
         "sourceFiles": [
           "Q09_02_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q09_fix01.sql",
+        "setupFile": "pre_ssql2-Q09_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2818,7 +2818,7 @@
         "sourceFiles": [
           "Q09_02_2.sql"
         ],
-        "setupFile": "pre_ssql2-Q09_fix01.sql",
+        "setupFile": "pre_ssql2-Q09_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
