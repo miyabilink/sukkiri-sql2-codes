@@ -976,7 +976,7 @@
         "sourceFiles": [
           "List04_01.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -988,7 +988,7 @@
         "sourceFiles": [
           "List02_02.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1000,7 +1000,7 @@
         "sourceFiles": [
           "List04_03.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1012,7 +1012,7 @@
         "sourceFiles": [
           "List04_04.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1024,7 +1024,7 @@
         "sourceFiles": [
           "List04_05.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1036,7 +1036,7 @@
         "sourceFiles": [
           "List04_06.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1048,7 +1048,7 @@
         "sourceFiles": [
           "List04_07.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_07.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1060,7 +1060,7 @@
         "sourceFiles": [
           "List04_08.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_08.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1072,7 +1072,7 @@
         "sourceFiles": [
           "List04_09.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_09.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1084,7 +1084,7 @@
         "sourceFiles": [
           "List04_10_1.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_10_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1096,7 +1096,7 @@
         "sourceFiles": [
           "List04_10_2.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix01.sql",
+        "setupFile": "pre_ssql2-List04_10_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1108,7 +1108,7 @@
         "sourceFiles": [
           "List04_11.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "setupFile": "pre_ssql2-List04_11.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1120,7 +1120,7 @@
         "sourceFiles": [
           "List04_12_1.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "setupFile": "pre_ssql2-List04_12_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1132,7 +1132,7 @@
         "sourceFiles": [
           "List04_12_2.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "setupFile": "pre_ssql2-List04_12_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1144,7 +1144,7 @@
         "sourceFiles": [
           "List04_13.sql"
         ],
-        "setupFile": "pre_ssql2-List04_fix02.sql",
+        "setupFile": "pre_ssql2-List04_13.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1216,7 +1216,7 @@
         "sourceFiles": [
           "Q04_01_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix01.sql",
+        "setupFile": "pre_ssql2-Q04_01_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1228,7 +1228,7 @@
         "sourceFiles": [
           "Q04_01_2.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix01.sql",
+        "setupFile": "pre_ssql2-Q04_01_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1252,7 +1252,7 @@
         "sourceFiles": [
           "Q04_01_4.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix02.sql",
+        "setupFile": "pre_ssql2-Q04_01_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1264,7 +1264,7 @@
         "sourceFiles": [
           "Q04_01_5.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix02.sql",
+        "setupFile": "pre_ssql2-Q04_01_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1276,7 +1276,7 @@
         "sourceFiles": [
           "Q04_02_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "setupFile": "pre_ssql2-Q04_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1288,7 +1288,7 @@
         "sourceFiles": [
           "Q04_02_2.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "setupFile": "pre_ssql2-Q04_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1300,7 +1300,7 @@
         "sourceFiles": [
           "Q04_02_3.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "setupFile": "pre_ssql2-Q04_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1312,7 +1312,7 @@
         "sourceFiles": [
           "Q04_02_4.sql"
         ],
-        "setupFile": "pre_ssql2-Q04_fix03.sql",
+        "setupFile": "pre_ssql2-Q04_02_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
