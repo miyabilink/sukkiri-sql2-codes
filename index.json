@@ -2182,7 +2182,7 @@
         "sourceFiles": [
           "List07_02.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2194,7 +2194,7 @@
         "sourceFiles": [
           "List07_03.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2206,7 +2206,7 @@
         "sourceFiles": [
           "List07_04.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2218,7 +2218,7 @@
         "sourceFiles": [
           "List07_05.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2230,7 +2230,7 @@
         "sourceFiles": [
           "List07_06.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2242,7 +2242,7 @@
         "sourceFiles": [
           "List07_07.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_07.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -2254,7 +2254,7 @@
         "sourceFiles": [
           "List07_08.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_08.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -2266,7 +2266,7 @@
         "sourceFiles": [
           "List07_09.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix02.sql",
+        "setupFile": "pre_ssql2-List07_09.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -2278,7 +2278,7 @@
         "sourceFiles": [
           "List07_10.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix02.sql",
+        "setupFile": "pre_ssql2-List07_10.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2290,7 +2290,7 @@
         "sourceFiles": [
           "List07_11.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_11.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2314,7 +2314,7 @@
         "sourceFiles": [
           "Can07_01.sql"
         ],
-        "setupFile": "pre_ssql2-Can07_fix01.sql",
+        "setupFile": "pre_ssql2-Can07_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2326,7 +2326,7 @@
         "sourceFiles": [
           "Can07_02.sql"
         ],
-        "setupFile": "pre_ssql2-Can07_fix01.sql",
+        "setupFile": "pre_ssql2-Can07_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2338,7 +2338,7 @@
         "sourceFiles": [
           "Can07_03.sql"
         ],
-        "setupFile": "pre_ssql2-Can07_fix01.sql",
+        "setupFile": "pre_ssql2-Can07_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2374,7 +2374,7 @@
         "sourceFiles": [
           "Q07_02_1.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2386,7 +2386,7 @@
         "sourceFiles": [
           "Q07_02_2.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2398,7 +2398,7 @@
         "sourceFiles": [
           "Q07_02_3.sql"
         ],
-        "setupFile": "pre_ssql2-List07_fix01.sql",
+        "setupFile": "pre_ssql2-List07_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
