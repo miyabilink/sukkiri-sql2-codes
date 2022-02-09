@@ -1330,7 +1330,7 @@
         "sourceFiles": [
           "List05_01.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1342,7 +1342,7 @@
         "sourceFiles": [
           "List05_02.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1354,7 +1354,7 @@
         "sourceFiles": [
           "List05_03.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1366,7 +1366,7 @@
         "sourceFiles": [
           "List05_04.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1378,7 +1378,7 @@
         "sourceFiles": [
           "List05_05.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_05.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1390,7 +1390,7 @@
         "sourceFiles": [
           "List05_06.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1402,7 +1402,7 @@
         "sourceFiles": [
           "List05_07.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_07.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1426,7 +1426,7 @@
         "sourceFiles": [
           "List05_09.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_09.sql",
         "isCompileError": false,
         "isRuntimeError": false,
         "loadMessage": null
@@ -1438,7 +1438,7 @@
         "sourceFiles": [
           "List05_10.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_10.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1450,7 +1450,7 @@
         "sourceFiles": [
           "List05_11.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_11.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1462,7 +1462,7 @@
         "sourceFiles": [
           "List05_12.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_12.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1474,7 +1474,7 @@
         "sourceFiles": [
           "List05_13.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_13.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1486,7 +1486,7 @@
         "sourceFiles": [
           "List05_14.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_14.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1498,7 +1498,7 @@
         "sourceFiles": [
           "List05_15_1.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_15_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1510,7 +1510,7 @@
         "sourceFiles": [
           "List05_15_2.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_15_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1522,7 +1522,7 @@
         "sourceFiles": [
           "List05_15_3.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_15_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1534,7 +1534,7 @@
         "sourceFiles": [
           "List05_15_4.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -1546,7 +1546,7 @@
         "sourceFiles": [
           "List05_15_4.sql"
         ],
-        "setupFile": "pre_ssql2-List05_fix01.sql",
+        "setupFile": "pre_ssql2-List05_15_5.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
