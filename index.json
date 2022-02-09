@@ -2464,7 +2464,7 @@
         "sourceFiles": [
           "List08_02.sql"
         ],
-        "setupFile": "pre_ssql2-List08_fix01.sql",
+        "setupFile": "pre_ssql2-List08_02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2488,7 +2488,7 @@
         "sourceFiles": [
           "List08_04.sql"
         ],
-        "setupFile": "pre_ssql2-List08_fix01.sql",
+        "setupFile": "pre_ssql2-List08_04.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2512,7 +2512,7 @@
         "sourceFiles": [
           "List08_06.sql"
         ],
-        "setupFile": "pre_ssql2-List08_fix01.sql",
+        "setupFile": "pre_ssql2-List08_06.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2524,7 +2524,7 @@
         "sourceFiles": [
           "List08_07.sql"
         ],
-        "setupFile": "pre_ssql2-List08_fix01.sql",
+        "setupFile": "pre_ssql2-List08_07.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2536,7 +2536,7 @@
         "sourceFiles": [
           "List08_08.sql"
         ],
-        "setupFile": "pre_ssql2-List08_fix03.sql",
+        "setupFile": "pre_ssql2-List08_08.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2548,7 +2548,7 @@
         "sourceFiles": [
           "List08_09.sql"
         ],
-        "setupFile": "pre_ssql2-List08_fix03.sql",
+        "setupFile": "pre_ssql2-List08_09.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2572,7 +2572,7 @@
         "sourceFiles": [
           "Can08_01.sql"
         ],
-        "setupFile": "pre_ssql2-Can08_fix01.sql",
+        "setupFile": "pre_ssql2-Can08_01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2596,7 +2596,7 @@
         "sourceFiles": [
           "Can08_03.sql"
         ],
-        "setupFile": "pre_ssql2-Can08_fix01.sql",
+        "setupFile": "pre_ssql2-Can08_03.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2608,7 +2608,7 @@
         "sourceFiles": [
           "Q08_01_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix01.sql",
+        "setupFile": "pre_ssql2-Q08_01_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2620,7 +2620,7 @@
         "sourceFiles": [
           "Q08_01_2.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix01.sql",
+        "setupFile": "pre_ssql2-Q08_01_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2632,7 +2632,7 @@
         "sourceFiles": [
           "Q08_01_3.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix01.sql",
+        "setupFile": "pre_ssql2-Q08_01_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2644,7 +2644,7 @@
         "sourceFiles": [
           "Q08_01_4.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix01.sql",
+        "setupFile": "pre_ssql2-Q08_01_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2656,7 +2656,7 @@
         "sourceFiles": [
           "Q08_02_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix02.sql",
+        "setupFile": "pre_ssql2-Q08_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2668,7 +2668,7 @@
         "sourceFiles": [
           "Q08_02_2.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix02.sql",
+        "setupFile": "pre_ssql2-Q08_02_2.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2680,7 +2680,7 @@
         "sourceFiles": [
           "Q08_02_3.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix02.sql",
+        "setupFile": "pre_ssql2-Q08_02_3.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -2692,7 +2692,7 @@
         "sourceFiles": [
           "Q08_02_4.sql"
         ],
-        "setupFile": "pre_ssql2-Q08_fix02.sql",
+        "setupFile": "pre_ssql2-Q08_02_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
