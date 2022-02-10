@@ -3011,7 +3011,7 @@
         "label_header": "",
         "label": "問題10-2-0",
         "sourceFiles": [
-          "Q10_2_0.sql"
+          "Q10_02_0.sql"
         ],
         "setupFile": "pre_ssql2-Q10_02_0.sql",
         "isCompileError": false,
@@ -3023,7 +3023,7 @@
         "label_header": "",
         "label": "問題10-2-1",
         "sourceFiles": [
-          "Q10_2_1.sql"
+          "Q10_02_1.sql"
         ],
         "setupFile": "pre_ssql2-Q10_02_1.sql",
         "isCompileError": false,
@@ -3035,7 +3035,7 @@
         "label_header": "",
         "label": "問題10-3",
         "sourceFiles": [
-          "Q10_3.sql"
+          "Q10_03.sql"
         ],
         "setupFile": "pre_ssql2-Q10_03.sql",
         "isCompileError": false,
@@ -3047,7 +3047,7 @@
         "label_header": "",
         "label": "問題10-5",
         "sourceFiles": [
-          "Q10_5.sql"
+          "Q10_05.sql"
         ],
         "setupFile": "pre_ssql2-Q10_05.sql",
         "isCompileError": false,
