@@ -1534,7 +1534,7 @@
         "sourceFiles": [
           "List05_15_4.sql"
         ],
-        "setupFile": "pre_ssql2-List05_1.sql",
+        "setupFile": "pre_ssql2-List05_15_4.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
