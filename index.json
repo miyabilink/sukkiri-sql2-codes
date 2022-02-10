@@ -3013,7 +3013,7 @@
         "sourceFiles": [
           "Q10_2_0.sql"
         ],
-        "setupFile": "pre_ssql2-Q10_2_0.sql",
+        "setupFile": "pre_ssql2-Q10_02_0.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3025,7 +3025,7 @@
         "sourceFiles": [
           "Q10_2_1.sql"
         ],
-        "setupFile": "pre_ssql2-Q10_2_1.sql",
+        "setupFile": "pre_ssql2-Q10_02_1.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
