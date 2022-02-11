@@ -3252,18 +3252,6 @@
         "loadMessage": null
       },
       {
-        "id": "ssql2-List11_10_2-pre",
-        "label_header": "リスト11-10-2-pre",
-        "label": "Oracle DBにおけるシーケンスの作成と取得",
-        "sourceFiles": [
-          "List11_10_2_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-List11_10_2_pre.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
         "id": "ssql2-List11_10_3",
         "label_header": "リスト11-10-3",
         "label": "Oracle DBにおけるシーケンスの作成と取得",
@@ -3300,18 +3288,6 @@
         "loadMessage": null
       },
       {
-        "id": "ssql2-List11_11_2_pre",
-        "label_header": "リスト11-11-2-pre",
-        "label": "Db2におけるシーケンスの作成と取得",
-        "sourceFiles": [
-          "List11_11_2_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-List11_11_2_pre.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
         "id": "ssql2-List11_11_3",
         "label_header": "リスト11-11-3",
         "label": "Db2におけるシーケンスの作成と取得",
@@ -3319,18 +3295,6 @@
           "List11_11_3.sql"
         ],
         "setupFile": "pre_ssql2-List11_11_3.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-List11_11_3_pre",
-        "label_header": "リスト11-11-3-pre",
-        "label": "Db2におけるシーケンスの作成と取得",
-        "sourceFiles": [
-          "List11_11_3_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-List11_11_3_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3360,18 +3324,6 @@
         "loadMessage": null
       },
       {
-        "id": "ssql2-List11_12-2_pre",
-        "label_header": "リスト11-12-2-pre",
-        "label": "PostgreSQLにおけるシーケンスの作成と取得",
-        "sourceFiles": [
-          "List11_12_2_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-List11_12_2_pre.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
         "id": "ssql2-List11_12_3",
         "label_header": "リスト11-12-3",
         "label": "PostgreSQLにおけるシーケンスの作成と取得",
@@ -3384,18 +3336,6 @@
         "loadMessage": null
       },
       {
-        "id": "ssql2-List11_12-3_pre",
-        "label_header": "リスト11-12-3-pre",
-        "label": "PostgreSQLにおけるシーケンスの作成と取得",
-        "sourceFiles": [
-          "List11_12_3_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-List11_12_3_pre.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
         "id": "ssql2-List11_13",
         "label_header": "リスト11-13",
         "label": "PostgreSQLにおける費目行の追加",
@@ -3403,18 +3343,6 @@
           "List11_13.sql"
         ],
         "setupFile": "pre_ssql2-List11_13.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-List11_13_pre",
-        "label_header": "リスト11-13-pre",
-        "label": "PostgreSQLにおける費目行の追加",
-        "sourceFiles": [
-          "List11_13_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-List11_13_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3496,18 +3424,6 @@
           "Q11_02_3.sql"
         ],
         "setupFile": "pre_ssql2-Q11_02_3.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-Q11_02-3_pre",
-        "label_header": "",
-        "label": "問題11-2-3-pre",
-        "sourceFiles": [
-          "Q11_02_3_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-Q11_02_3_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3973,21 +3889,8 @@
         "label_header": "",
         "label": "QA-35",
         "sourceFiles": [
-          "QA_035.sql"
         ],
         "setupFile": "pre_ssql2-QA_base.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-QA_036_pre",
-        "label_header": "",
-        "label": "QA-36-pre",
-        "sourceFiles": [
-          "QA_036_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-QA_036_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -3997,7 +3900,6 @@
         "label_header": "",
         "label": "QA-36",
         "sourceFiles": [
-          "QA_036_pre.sql"
         ],
         "setupFile": "pre_ssql2-QA_036_pre.sql",
         "isCompileError": false,
@@ -4009,7 +3911,6 @@
         "label_header": "",
         "label": "QA-37",
         "sourceFiles": [
-          "QA_037.sql"
         ],
         "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
@@ -4456,18 +4357,6 @@
           "QA_074.sql"
         ],
         "setupFile": "pre_ssql2-QA_fix01.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-QA_075_pre",
-        "label_header": "",
-        "label": "QA-75-pre",
-        "sourceFiles": [
-          "QA_075_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-QA_075_pre.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5349,18 +5238,6 @@
     "label": "練習問題C RPGデータベース",
     "children": [
       {
-        "id": "ssql2-QC_001_pre",
-        "label_header": "",
-        "label": "QC-1-pre",
-        "sourceFiles": [
-          "QC_001_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-QC_fix02.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
         "id": "ssql2-QC_001",
         "label_header": "",
         "label": "QC-1",
@@ -5368,18 +5245,6 @@
           "QC_001.sql"
         ],
         "setupFile": "pre_ssql2-QC_fix01.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
-      {
-        "id": "ssql2-QC_002-pre",
-        "label_header": "",
-        "label": "QC-2-pre",
-        "sourceFiles": [
-          "QC_002_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-QC_fix02.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5403,7 +5268,7 @@
         "sourceFiles": [
           "QC_003.sql"
         ],
-        "setupFile": "pre_ssql2-QC_base.sql",
+        "setupFile": "pre_ssql2-QC_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
@@ -5415,23 +5280,12 @@
         "sourceFiles": [
           "QC_004.sql"
         ],
-        "setupFile": "pre_ssql2-QC_base.sql",
+        "setupFile": "pre_ssql2-QC_fix01.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
       },
-      {
-        "id": "ssql2-QC_005_pre",
-        "label_header": "",
-        "label": "QC-5-pre",
-        "sourceFiles": [
-          "QC_005_pre.sql"
-        ],
-        "setupFile": "pre_ssql2-QC_fix02.sql",
-        "isCompileError": false,
-        "isRuntimeError": null,
-        "loadMessage": null
-      },
+
       {
         "id": "ssql2-QC_005",
         "label_header": "",
