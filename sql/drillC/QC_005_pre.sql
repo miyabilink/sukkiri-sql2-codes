@@ -1,2 +1,0 @@
-DELETE FROM パーティー
- WHERE ID LIKE 'A%'
