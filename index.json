@@ -3901,7 +3901,7 @@
         "label": "QA-36",
         "sourceFiles": [
         ],
-        "setupFile": "pre_ssql2-QA_036_pre.sql",
+        "setupFile": "pre_ssql2-QA_036.sql",
         "isCompileError": false,
         "isRuntimeError": null,
         "loadMessage": null
