@@ -3481,7 +3481,6 @@
         "label_header": "",
         "label": "QA-1",
         "sourceFiles": [
-          "QA_001.sql"
         ],
         "setupFile": "pre_ssql2-QA_base.sql",
         "isCompileError": false,
