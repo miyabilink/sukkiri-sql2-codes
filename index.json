@@ -76,6 +76,18 @@
         "loadMessage": null
       },
       {
+        "id": "ssql2-List01_07",
+        "label_header": "リスト1-7",
+        "label": "3月の家賃（日付が「2018年2月25日」）の行の削除",
+        "sourceFiles": [
+          "List01_07.sql"
+        ],
+        "setupFile": "pre_ssql2-List01_07.sql",
+        "isCompileError": false,
+        "isRuntimeError": null,
+        "loadMessage": null
+      },
+      {
         "id": "ssql2-Q01_03_1",
         "label_header": "",
         "label": "問題1-3-1",
